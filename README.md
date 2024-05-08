@@ -18,7 +18,7 @@ Shared airspace is built around these guiding principles:
 
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
-* UTM Service Provider Data Sharing and Governance Agreement Template (includes onboarding information)
+* [UTM Service Provider Data Sharing and Governance Agreement Template](./docs/USP_Agreement_UTMImplementationUS_Template_Github.pdf) (includes onboarding information)
 * Service Description Document for Strategic Coordination
 * Requirements Traceability Matrix for Strategic Coordination
 

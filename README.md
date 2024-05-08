@@ -85,13 +85,13 @@ The ecosystem is open to service providers and their operators. Providers of UTM
 
 _Source: Annex B - Onboarding Gates, UTM Service Provider Data Sharing and Governance Agreeement_
 
-BECOME A PARTICIPANT (TODO: Add link)
+[BECOME A PARTICIPANT](https://github.com/utmimplementationus/getstarted/issues/new?labels=join-request&template=join_request.md)
 
 ## Current Activities
 
 Participants in the current collaboration stemming from the active drone delivery market in North Texas are onboarding to or actively participating in simulations representing true, day-in-the-life operations. These simulations will progress to live flights in the coming months (mid-2024). Companies have reached consensus on governance and data sharing, and have signed and implemented agreements that are publicly available on this page. This is known as the North Texas Shared Airspace Implementation.
 
-![initial asset, color coding to come in full simulation](assets/SimulationExample.png)
+![initial asset](assets/SimulationExample.png)
 
 ## Background
 

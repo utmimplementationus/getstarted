@@ -22,6 +22,10 @@ With performance-based criteria, UTM service providers and their operators can p
 * [Service Description Document for Strategic Coordination](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_v1.0.pdf)
 * [Requirements Traceability Matrix for Strategic Coordination](./docs/Strategic_Coordination_Compliance_Matrix_v1.0.xlsx)
 
+## Frequently Asked Questions
+
+[Click here](faqs.md) for answers to frequently asked questions about the US UTM Implementation.
+
 ## How to Get Started
 
 Participation in the shared airspace ecosystem enables collaboration, communication, and governance of shared airspace, aiming to integrate strategic coordination services to enable dense, overlapping BVLOS operations.

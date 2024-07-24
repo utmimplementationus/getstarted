@@ -53,6 +53,12 @@ No, joining the US UTM Implementation is free of charge. However, according to t
 
 ## Onboarding FAQs
 
+### How do I get access to the additional technical documentation that I need in order to prepare for passing the gates?
+
+These materials are provided once you sign the governance agreement -- that includes the endpoint and configuration for the RPAS Platform, which provides authorization tokens, hosts the ecosystem automated test environment, and provisions the test runner. Some companies choose to build their USS and initially test against their own instance of the InterUSS test suite using the open-source materials available before signing the governance agreement. The current test baseline is indicated in v1.1 of the SDD, which is publicly posted on the governance site.
+
+Thus, Gate 1 can be passed using your own tooling and without having to connect to the RPAS Platform (and prior to signing the governance agreement) if you choose; alternatively, once you sign the governance agreement, you can choose to use the pre-qual environment of the RPAS Platform.
+
 ### What does "integration" mean in the context of passing Gate 2?
 
 Gate 2 integration consists of the technical ability for the operator and service provider to appropriately exchange data as required by the standard and considering the respective responsibilities in the governance agreement. “Integration” in this context *does not* mean that necessary FAA approvals/waivers/exemptions have necessarily been secured. FAA approvals are subject to their own timelines, so the Operations Committee does not make any of the governance onboarding steps dependent on FAA actions. 

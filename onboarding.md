@@ -1,16 +1,16 @@
 ## Onboarding Process for the US UTM Implementation
 
-Welcome to the US UTM Implementation! Below is a detailed guide to help new participants navigate the onboarding process. Please carefully review the guide and associated timelines to determine your readiness to start the process.
+Welcome to the US UTM Implementation! Below is a detailed guide to help new participants navigate the onboarding process. Please carefully review the guide and associated timelines to determine your readiness to start the process. Additional information is available in the [onboarding section of the FAQs](faqs.md#onboarding-faqs).
 
 ### 1. Sign the Governance Agreement
 
-To become a participant, the first step is to sign the Governance Agreement Form of Joinder (Annex E). Please provide the email address and name of the point of contact (POC) responsible for signing this document to operations-committee+owner@utm-implementation-us.groups.io. The document will then be sent to you for signature via DocuSign.
+To become a participant, the first step is to sign the Governance Agreement Form of Joinder (Annex E). Please provide the email address and name of the point of contact (POC) responsible for signing this document to [the Operations Committee](mailto:onboarding@us-utm.simplelogin.com). The document will then be sent to you for signature via DocuSign.
 
 After signing Annex E, please email the names and contact information, including GitHub handles, for your:
 + Operations Committee POC
 + Technical Committee POC
 + Accountable Executive
-Send this information to operations-committee+owner@utm-implementation-us.groups.io. Note that the POCs and/or Accountable Executive can be the same person or different individuals within your organization. This is a mandatory prerequisite for all applicants.
+Send this information to [the Operations Committee](mailto:onboarding@us-utm.simplelogin.com). Note that the POCs and/or Accountable Executive can be the same person or different individuals within your organization. This is a mandatory prerequisite for all applicants.
 
 ### 2. Automated Testing Onboarding
 

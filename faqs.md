@@ -1,3 +1,5 @@
+## General FAQs
+
 ### What is the US UTM Implementation?
 
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
@@ -11,7 +13,7 @@ UAS Operators and UTM Service Providers who have a need to share airspace with o
 
 ### Am I ready to join the US UTM Implementation?	
 
-To join the US UTM Implementation, participants must be ready to pass Gate 1 criteria and sign the governance agreement as provided on the Get Started page.
+To join the US UTM Implementation, participants must be ready to pass Gate 1 criteria and sign the governance agreement as provided on the Get Started page. See the [onboarding steps](onboarding.md) and the next section of the FAQs for more information.
 
 ### What is covered in the governance agreement?	
 
@@ -27,11 +29,11 @@ For information about the FAA’s UTM Key Site Operational Evaluation, [see here
 
 ### How do I sign the governance agreement?	
 
-[Send an email to the Operations Committee](mailto:operations-committee+owner@utm-implementation-us.groups.io) when you are ready to sign.
+[Send an email to the Operations Committee](mailto:onboarding@us-utm.simplelogin.com) when you are ready to sign.
 
 ### How do I show that I passed Gate 1 criteria?	
 
-If you have already passed Gate 1, please upload your single-operator test report when you submit your operator participation interest form. Otherwise, attach the test report [in an email to the Operations Committee](mailto:operations-committee+owner@utm-implementation-us.groups.io).
+If you have already passed Gate 1, please upload your single-operator test report when you submit your operator participation interest form. Otherwise, attach the test report [in an email to the Operations Committee](mailto:onboarding@us-utm.simplelogin.com).
 
 ### I'm interested in providing other services besides strategic coordination. Can I still join the US UTM implemenation?	
 
@@ -39,7 +41,7 @@ At this time, the US UTM Implementation is focused on standing up core strategic
 
 ### I'd like to join the committee meetings and/or read the minutes of past committee meetings. How can I get access?	
 
-The Operations Committee and Technical Committee meetings, along with their minutes, are open to any stakeholders who have signed the governance agreement and passed the Gate 1 criteria. Government officials (other than FAA) who have questions about committee proceedings should contact the [Operations Committee](mailto:operations-committee+owner@utm-implementation-us.groups.io), and/or the [Technical Committee](mailto:technical-committee+owner@utm-implementation-us.groups.io), with specific requests.
+The Operations Committee and Technical Committee meetings, along with their minutes, are open to any stakeholders who have signed the governance agreement and passed the Gate 1 criteria. Government officials (other than FAA) who have questions about committee proceedings should contact the [Operations Committee](mailto:onboarding@us-utm.simplelogin.com), and/or the [Technical Committee](mailto:technical-committee@us-utm.simplelogin.com), with specific requests.
 
 ### How is this inititiave funded?	
 
@@ -48,3 +50,23 @@ Operators, service providers and other stakeholders are expected to cover their 
 ### Are there any fees for joining the UTM Implementation cohort?	
 
 No, joining the US UTM Implementation is free of charge. However, according to the data sharing and governance agreement, members must cover all of their expenses.
+
+## Onboarding FAQs
+
+### How do I get access to the additional technical documentation that I need in order to prepare for passing the gates?
+
+These materials are provided once you sign the governance agreement -- that includes the endpoint and configuration for the RPAS Platform, which provides authorization tokens, hosts the ecosystem automated test environment, and provisions the test runner. Some companies choose to build their USS and initially test against their own instance of the InterUSS test suite using the open-source materials available before signing the governance agreement. The current test baseline is indicated in v1.1 of the SDD, which is publicly posted on the governance site.
+
+Thus, Gate 1 can be passed using your own tooling and without having to connect to the RPAS Platform (and prior to signing the governance agreement) if you choose; alternatively, once you sign the governance agreement, you can choose to use the pre-qual environment of the RPAS Platform.
+
+### What does "integration" mean in the context of passing Gate 2?
+
+Gate 2 integration consists of the technical ability for the operator and service provider to appropriately exchange data as required by the standard and considering the respective responsibilities in the governance agreement. “Integration” in this context *does not* mean that necessary FAA approvals/waivers/exemptions have necessarily been secured. FAA approvals are subject to their own timelines, so the Operations Committee does not make any of the governance onboarding steps dependent on FAA actions. 
+
+### Because there are dependencies between the Operator and Service Provider participants, what should a new participant do to manage the risks in getting integration completed within the prescribed 60-day period?
+
+The Operations Committee understands that unforeseen challenges could arise, and that’s why the process includes a 30-day extension. Onboarding providers must request the extension, and it will then be granted. The Operations Committee made a deliberate choice not to attach conditions or criteria to the extension. 
+
+### How do new participants verify and achieve operational practicality (Gate 3)?
+
+Validation of operational practicality involves conducting coordinated, simultaneous simulations with the other shared airspace members that you reasonably expect to overlap with in real life. The process is described in Section 4(c) of the governance agreement. The key is that other operators and service providers are also part of that simulation set using their own USSs, and using reasonable assumptions about where overlapping operations will occur in real-world conditions.

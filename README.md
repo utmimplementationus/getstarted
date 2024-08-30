@@ -3,6 +3,7 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 ## Recent Updates
++ August 30, 2024: [DSS Pooling Policy](dss-pooling.md) added. Governance agreement updated with revisions to Annex C.
 + July 16, 2024: FAQs updated.
 + July 8, 2024: Added [detailed onboarding information](onboarding.md) for prospective service provider applicants.
 + July 2, 2024: Uploaded v1.1 of the Service Description Document, and v1.1 of the Requirements Traceability Matrix. (links provided in next section)

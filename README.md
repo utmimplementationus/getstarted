@@ -3,10 +3,7 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 ## Recent Updates
-+ August 30, 2024: [DSS Pooling Policy](dss-pooling.md) added. Governance agreement updated with revisions to Annex C.
-+ July 16, 2024: FAQs updated.
-+ July 8, 2024: Added [detailed onboarding information](onboarding.md) for prospective service provider applicants.
-+ July 2, 2024: Uploaded v1.1 of the Service Description Document, and v1.1 of the Requirements Traceability Matrix. (links provided in next section)
++ September 3, 2024: [DSS Pooling Policy](dss-pooling.md) added. [Governance agreement](./docs/USP_AGREEMENT_08302024.pdf) updated with revisions to Annex C.
 
 ## About the US UTM Implementation
 
@@ -26,19 +23,19 @@ Shared airspace is built around these guiding principles:
 
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
-* [UTM Service Provider Data Sharing and Governance Agreement Template](./docs/USP_Agreement_UTMImplementationUS_Template_Github.pdf) (includes onboarding information)
+* [UTM Service Provider Data Sharing and Governance Agreement Template](./docs/USP_AGREEMENT_08302024.pdf) (includes onboarding information)
 * [Service Description Document for Strategic Coordination](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V1.1.pdf)
 * [Requirements Traceability Matrix for Strategic Coordination](./docs/Strategic_Coordination_Compliance_Matrix_V1.1.xlsx)
 
-## Frequently Asked Questions
+## Frequently Asked Questions and Additional Resources
 
-[Click here](faqs.md) for answers to frequently asked questions about the US UTM Implementation.
++ [Click here](faqs.md) for answers to frequently asked questions about the US UTM Implementation.
++ [Consult this page for the specific onboarding steps that are required](onboarding.md), including how to sign the governance agreement, and required timelines for completing the steps.
++ [Click here for more information on DSS Pooling](dss-pooling.md), which is applicable to service providers who are seeking to include their own DSS instance (or a subcontracted instance) in the Shared Airspace DSS Pool.
 
 ## How to Get Started
 
 Participation in the shared airspace ecosystem enables collaboration, communication, and governance of shared airspace, aiming to integrate strategic coordination services to enable dense, overlapping BVLOS operations. This section provides an overview of the steps to join the US UTM Implementation.
-
-+ [Consult this page for the specific onboarding steps that are required](onboarding.md), including how to sign the governance agreement, and required timelines for completing the steps.
 
 As a participant, you will be able to leverage shared operational and governance resources to develop, verify, and advance your approach to sharing the airspace. This is an opportunity to learn from collaborative efforts and participate in democratized foundations of a shared airspace.
 
@@ -103,7 +100,7 @@ _Source: Annex B - Onboarding Gates, UTM Service Provider Data Sharing and Gover
 
 ## Current Activities
 
-Participants in the current collaboration stemming from the active drone delivery market in North Texas are onboarding to or actively participating in simulations representing true, day-in-the-life operations. These simulations will progress to live flights in the coming months (mid-2024). Companies have reached consensus on governance and data sharing, and have signed and implemented agreements that are publicly available on this page. This is known as the North Texas Shared Airspace Implementation.
+Participants in the current collaboration stemming from the active drone delivery market in North Texas are onboarding to or actively participating in simulations representing true, day-in-the-life operations. These simulations have progressed to live flights over the course of 2024. Companies have reached consensus on governance and data sharing, and have signed and implemented agreements that are publicly available on this page. This is known as the US UTM Shared Airspace Implementation.
 
 ![initial asset](assets/SimulationExample.png)
 
@@ -111,7 +108,7 @@ Participants in the current collaboration stemming from the active drone deliver
 
 Following the momentum around scaled UAS services, particularly around drone delivery, in the greater North Texas area in late 2023 and early 2024, several operators noted the inherent need to communicate amongst each other. Prior FAA and NASA projects like the [UTM Field Test](https://www.faa.gov/uas/research_development/traffic_management/field_test), [UTM Pilot Program](https://www.faa.gov/uas/research_development/traffic_management/utm_pilot_program), UTM Technical Capability Levels, and other efforts had already provided frameworks for deploying strategic coordination services in an operational environment.
 
-Understanding the need to share airspace amongst scaled operations and leverage applicable standards, seven operators engaged in a project to operationalize strategic conflict detection in the Dallas-Fort Worth area, including DroneUp, Flytrex, Manna, Prime Air, UPS Flight Forward, Wing, and Zipline, with ANRA Technologies as a service provider. Initial activities are coordinated by the Virginia Tech Mid-Atlantic Aviation Partnership and leverage contributions from Global UTM Association (GUTMA) and the InterUSS Platform. The effort is applicable to UTM across the US.
+Understanding the need to share airspace amongst scaled operations and leverage applicable standards, an initial seven operators engaged in a project to operationalize strategic conflict detection in the Dallas-Fort Worth area, including DroneUp, Flytrex, Manna, Prime Air, UPS Flight Forward, Wing, and Zipline, with ANRA Technologies as a service provider. Subsequently, AAMTEX, Avision and Cal Analytics have joined the activies as service providers. Initial activities are supported by contributions fromthe Virginia Tech Mid-Atlantic Aviation Partnership (MAAP), Global UTM Association (GUTMA) and the InterUSS Platform. The effort is applicable to UTM across the US.
 
 ## Open Source Approach
 

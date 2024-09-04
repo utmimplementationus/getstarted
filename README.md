@@ -3,7 +3,7 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 ## Recent Updates
-+ September 3, 2024: [DSS Pooling Policy](dss-pooling.md) added. [Governance agreement](./docs/USP_AGREEMENT_08302024.pdf) updated with revisions to Annex C.
++ September 3, 2024: [DSS Pooling Policy](dss-pooling.md) added. [Governance agreement](./docs/USP_Agreement_09032024.pdf) updated with revisions to Annex C.
 
 ## About the US UTM Implementation
 
@@ -23,7 +23,7 @@ Shared airspace is built around these guiding principles:
 
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
-* [UTM Service Provider Data Sharing and Governance Agreement Template](./docs/USP_AGREEMENT_08302024.pdf) (includes onboarding information)
+* [UTM Service Provider Data Sharing and Governance Agreement Template](./docs/USP_Agreement_09032024.pdf) (includes onboarding information)
 * [Service Description Document for Strategic Coordination](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V1.1.pdf)
 * [Requirements Traceability Matrix for Strategic Coordination](./docs/Strategic_Coordination_Compliance_Matrix_V1.1.xlsx)
 

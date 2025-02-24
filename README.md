@@ -3,8 +3,7 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 ## Recent Updates
-+ February 24, 2025: [Service Description Document](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V1.3.1.pdf) updated to v1.3 and adopted by the Operations Committee.
-+ February 1, 2025: [Service Description Document](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V1.3.pdf) updated to v1.3 and adopted by the Operations Committee.
++ February 24, 2025: [Service Description Document](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V1.3.1.pdf) updated to v1.3.1 and adopted by the Operations Committee.
 
 ## About the US UTM Implementation
 

@@ -209,6 +209,7 @@ A Prospective Service Provider must [...] demonstrate to the Technical Committee
 **\[Service Provider\]** For Gate 1 completion, submit *all of* the following:
 - Own system passing test result
 - DSS contract signature page, if applicable.
+- Email address of at least one on-call point of contact for notifications, including to address SLA-related issues.
 - Declaration of having completed a hazard analysis to identify and mitigate safety risks in accordance with the GUTMA USSP’s Safety Support Assessment process.
 - Information necessary for access to Qual-Partners and inclusion in the Early Integration Assessment test configuration:
     - Qual-Partners environment service account

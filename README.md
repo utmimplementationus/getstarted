@@ -3,6 +3,7 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 ## Recent Updates
++ July 11, 2025: Updated version of the [governance agreement](.docs/USP_Agreement_07112025.pdf) adopted.
 + July 1, 2025: [Prioritization policy](./docs/prioritization-policy-07012025.md) adopted, with a transition window from Sept. 1-14, 2025. [Service Description Document](./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf) updated to v1.4 and [Requirements Traceability Matrix](./docs/SCD-RTM-V1.2.xlsx) updated to v1.2.
 + April 14, 2025: Updated [onboarding guidance](onboarding.md), including a detailed table of steps to complete at each gate.
 + April 1, 2025: Revision of the [governance agreement annexes](./docs/USP_Agreement_04012025.pdf) approved by the Operations Committee and published.
@@ -29,7 +30,7 @@ Shared airspace is built around these guiding principles:
 
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
-* [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_04012025.pdf)
+* [UTM Service Provider Data Sharing and Governance Agreement](.docs/USP_Agreement_07112025.pdf)
 * [Service Description Document for Strategic Coordination, v1.4](./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf)
 * [Requirements Traceability Matrix for Strategic Coordination, v1.2](./docs/SCD-RTM-V1.2.xlsx)
 

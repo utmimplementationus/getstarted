@@ -53,6 +53,42 @@ No, joining the US UTM Implementation is free of charge. However, according to t
 
 ## Onboarding FAQs
 
+### What documentation should I review before starting onboarding?
+
+Review the [Governance Agreement](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_04012025.pdf), [SDD](https://github.com/utmimplementationus/getstarted/blob/main/docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf), and issue ticket workflow to understand expectations and technical requirements.
+
+### What are the onboarding gates and what do they require?
+
+There are three gates: Gate 1 (Qualification Testing), Gate 2 (Simulation), and Gate 3 (Production Flights). Each gate has specific technical and operational criteria outlined in the [Governance Agreement](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_04012025.pdf).
+![Alt text](https://raw.githubusercontent.com/utmimplementationus/tech_committee/main/automated_testing/workflows/assets/USS_onboard_workflow.svg)
+
+### Where can I find onboarding materials?
+
+All onboarding resources are grouped in a [checklist](https://github.com/utmimplementationus/getstarted/blob/main/onboarding.md#5-table-of-onboarding-requirements-by-gate). (5. Table of Onboarding Requirements by Gate)
+
+### How do I formally disengage or offboard?
+
+Disengaging from the Platform requires a formal **GitHub Support Ticket** in the Operations Committee repository.
+
+### When do I get voting rights?
+
+Voting rights are granted during the onboarding process, after Gate 3.
+
+### What should a USP do if they need to temporarily remove themselves from a test configuration due to a testing issue (e.g., SEV2 in prod-fitness)?
+
+If a USP encounters a blocking issue during testing and needs to temporarily remove themselves from a test configuration like **prod-fitness**, the correct procedure is to:
+1.  **Submit a configuration change request** using the appropriate GitHub issue template.
+2.  Use the following link to open the request:[Automated Test Config Change Template](https://github.com/utmimplementationus/operations_committee/issues/new?template=6_automated_test_config_change.yaml)
+This ensures the Operations Committee is notified and can coordinate the change without disrupting other participants.
+
+### Where can I find the latest version of Strategic Coordination Service Description Document (SDD)
+
+You can find the SDD v1.4. [here](https://github.com/utmimplementationus/getstarted?tab=readme-ov-file).
+
+### Where can I find the technical roadmap and automated testing baseline as per Section 3.b of the Governance Agreement.
+
+The latest Shared Airspace Technical Committee Roadmap can be found [here](https://github.com/utmimplementationus/tech_committee/blob/286cba67ace83a7ddfaccd8620ebacf4066a83d5/docs/tech_commitee_roadmap/tech_commitee_roadmap.md). Automated testing baselines can be found [here](https://github.com/utmimplementationus/tech_committee/tree/main/automated_testing/configuration).
+
 ### How do I get access to the additional technical documentation that I need in order to prepare for passing the gates?
 
 These materials are provided once you sign the governance agreement -- that includes the endpoint and configuration for the RPAS Platform, which provides authorization tokens, hosts the ecosystem automated test environment, and provisions the test runner. Some companies choose to build their USS and initially test against their own instance of the InterUSS test suite using the open-source materials available before signing the governance agreement. The current test baseline is indicated in v1.1 of the SDD, which is publicly posted on the governance site.

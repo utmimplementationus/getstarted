@@ -3,16 +3,14 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 ## Recent Updates
++ October 20, 2025: [Service Description Document](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf) updated to v2.0 and [Requirements Traceability Matrix](./docs/SCD-RTM-V2.0.xlsx) updated to v2.0.
 + July 11, 2025: Updated version of the [governance agreement](./docs/USP_Agreement_07112025.pdf) adopted.
-+ July 1, 2025: [Prioritization policy](./docs/prioritization-policy-07012025.md) adopted, with a transition window from Sept. 1-14, 2025. [Service Description Document](./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf) updated to v1.4 and [Requirements Traceability Matrix](./docs/SCD-RTM-V1.2.xlsx) updated to v1.2.
-+ April 14, 2025: Updated [onboarding guidance](onboarding.md), including a detailed table of steps to complete at each gate.
-+ April 1, 2025: Revision of the [governance agreement annexes](./docs/USP_Agreement_04012025.pdf) approved by the Operations Committee and published.
-+ March 20, 2025: [MAAP Shared Airspace Report](./docs/Shared_Airspace_Report_v1_FINAL.pdf) approved by the Operations Committee and published.
++ July 1, 2025: [Prioritization policy](./docs/prioritization-policy-07012025.md) adopted.
 
 
 ## About the US UTM Implementation
 
-As of July 2025, the cohort includes 15 service providers and operators using the USS Network to support UAS operations in several parts of the United States. In June 2025, Unmanned Airspace [covered the cohort's progress to date](https://www.unmannedairspace.info/uncategorized/one-year-on-assessing-challenges-and-achievements-of-the-us-utm-implementation-programme/). In March 2025, the Mid-Atlantic Aviation Partnership (MAAP) at Virginia Tech completed their [Initial Operationalization Report](./docs/Shared_Airspace_Report_v1_FINAL.pdf), which the Operations Committee approved and makes publicly available.
+As of October 2025, the cohort includes 16 service providers and operators using the USS Network to support UAS operations in several parts of the United States. In October 2025, [many members submitted joint comments](https://www.regulations.gov/comment/FAA-2025-1908-2544) in support of the cohort's activities in response to the Federal Aviation Administration's Notice of Proposed Rulemaking (NPRM) for Normalizing UAS Beyond Visual Line of Sight (BVLOS) Operations. In June 2025, Unmanned Airspace [covered the cohort's progress to date](https://www.unmannedairspace.info/uncategorized/one-year-on-assessing-challenges-and-achievements-of-the-us-utm-implementation-programme/). In March 2025, the Mid-Atlantic Aviation Partnership (MAAP) at Virginia Tech completed their [Initial Operationalization Report](./docs/Shared_Airspace_Report_v1_FINAL.pdf), which the Operations Committee approved and makes publicly available.
 
 Shared airspace is the digital coordination of intended UA flight paths with overlapping operators in support of FAA Order 8040.6A and complex operations. This implementation of shared airspace leverages the strategic conflict detection and aggregated conformance monitoring services (collectively identified as strategic coordination) defined in [ASTM F3548-21 Standard Specification for UAS Traffic Management (UTM) UAS Service Supplier (USS) Interoperability](https://www.astm.org/f3548-21.html). These services are expected to be accepted by the FAA per the [Near Term Approvals Process (NTAP)](https://www.faa.gov/uas/advanced_operations/traffic_management) and incorporate participation and feedback from the FAA and NASA. Participants include Service Providers and Operators with the need to reduce UA to UA risk and who have signed the agreement available on this page.
 
@@ -31,8 +29,8 @@ Shared airspace is built around these guiding principles:
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
 * [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_07112025.pdf)
-* [Service Description Document for Strategic Coordination, v1.4](./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf)
-* [Requirements Traceability Matrix for Strategic Coordination, v1.2](./docs/SCD-RTM-V1.2.xlsx)
+* [Service Description Document for Strategic Coordination, v2.0](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf)
+* [Requirements Traceability Matrix for Strategic Coordination, v2.0](./docs/SCD-RTM-V2.0.xlsx)
 
 ## Frequently Asked Questions and Additional Resources
 

@@ -17,7 +17,7 @@ To join the US UTM Implementation, participants must be ready to pass Gate 1 cri
 
 ### What is covered in the governance agreement?	
 
-Digital coordination of flight intent requires the exchange of data among service providers. The agreement governs three main topics 1) what data can be exchanged and how it can be used, 2) how others can join the agreement, and 3) how to address situations when companies are not performing as expected.
+Digital coordination of flight intent requires the exchange of data among service providers. The agreement governs three main topics 1. what data can be exchanged and how it can be used, 2. how others can join the agreement, and 3. how to address situations when companies are not performing as expected.
 
 ### Is this implementation regionally limited?	
 
@@ -60,7 +60,7 @@ Review the [Governance Agreement](https://github.com/utmimplementationus/getstar
 ### What are the onboarding gates and what do they require?
 
 There are three gates: Gate 1 (Qualification Testing), Gate 2 (Simulation), and Gate 3 (Production Flights). Each gate has specific technical and operational criteria outlined in the [Governance Agreement](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_04012025.pdf).
-![Alt text](https://raw.githubusercontent.com/utmimplementationus/tech_committee/main/automated_testing/workflows/assets/USS_onboard_workflow.svg)
+
 
 ### Where can I find onboarding materials?
 
@@ -83,7 +83,7 @@ This ensures the Operations Committee is notified and can coordinate the change 
 
 ### Where can I find the latest version of Strategic Coordination Service Description Document (SDD)
 
-You can find the SDD v1.4. [here](https://github.com/utmimplementationus/getstarted?tab=readme-ov-file).
+You can find the SDD v1.4. [here](https://github.com/utmimplementationus/getstarted/blob/main/docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf).
 
 ### Where can I find the technical roadmap and automated testing baseline as per Section 3.b of the Governance Agreement.
 
@@ -97,7 +97,7 @@ Thus, Gate 1 can be passed using your own tooling and without having to connect 
 
 ### What does "integration" mean in the context of passing Gate 2?
 
-Gate 2 integration consists of the technical ability for the operator and service provider to appropriately exchange data as required by the standard and considering the respective responsibilities in the governance agreement. “Integration” in this context *does not* mean that necessary FAA approvals/waivers/exemptions have necessarily been secured. FAA approvals are subject to their own timelines, so the Operations Committee does not make any of the governance onboarding steps dependent on FAA actions. 
+Gate 2 integration consists of the technical ability for the operator and service provider to appropriately exchange data as required by the standard and considering the respective responsibilities in the governance agreement. "Integration" in this context *does not* mean that necessary FAA approvals/waivers/exemptions have necessarily been secured. FAA approvals are subject to their own timelines, so the Operations Committee does not make any of the governance onboarding steps dependent on FAA actions. 
 
 ### Because there are dependencies between the Operator and Service Provider participants, what should a new participant do to manage the risks in getting integration completed within the prescribed 60-day period?
 

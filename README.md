@@ -7,6 +7,11 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 + July 11, 2025: Updated version of the [governance agreement](./docs/USP_Agreement_07112025.pdf) adopted.
 + July 1, 2025: [Prioritization policy](./docs/prioritization-policy-07012025.md) adopted.
 
+## SDD Version and Status
+<table><tr><th scope="col"> </th><th scope="col">Version</th><th scope="col">Test Baseline</th><th scope="col">Rollout plan</th></tr>
+    <th scope="row">Current</th><td><a href="./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf">v1.4</a></td><td>Onboarding: TB-87bc766<p>Prod: TB-59dff31</p></td><td>Implemented 9/2025</td></tr>
+    <th scope="row">Upcoming</th><td><a href="./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf">v2.0</a></td><td>TB-c5122db</td><td>Pending</td></tr>
+</table>
 
 ## About the US UTM Implementation
 

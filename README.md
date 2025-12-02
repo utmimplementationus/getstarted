@@ -37,7 +37,7 @@ With performance-based criteria, UTM service providers and their operators can p
 * [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_07112025.pdf)
 * (Implemented SDD) [Service Description Document for Strategic Coordination, v1.4](./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf)
 * (Implementation Pending) [Service Description Document for Strategic Coordination, v2.0](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf)
-* (Implemented RTM) [Requirements Traceability Matrix for Strategic Coordination, v1.4](./docs/SCD-RTM-V1.4.xlsx)
+* (Implemented RTM) [Requirements Traceability Matrix for Strategic Coordination, v1.2](./docs/SCD-RTM-V1.2.xlsx)
 * (Implementation Pending) [Requirements Traceability Matrix for Strategic Coordination, v2.0](./docs/SCD-RTM-V2.0.xlsx)
 
 ## Frequently Asked Questions and Additional Resources

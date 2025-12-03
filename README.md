@@ -7,6 +7,12 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 + July 11, 2025: Updated version of the [governance agreement](./docs/USP_Agreement_07112025.pdf) adopted.
 + July 1, 2025: [Prioritization policy](./docs/prioritization-policy-07012025.md) adopted.
 
+## SDD Version and Status
+<table><tr><th scope="col"> </th><th scope="col">Version</th><th scope="col">Test Baseline</th><th scope="col">Rollout Status</th></tr>
+    <th scope="row">Current</th><td><a href="./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf">v1.4</a></td><td>Onboarding (Issue Tickets 1.2 through 3.1): TB-87bc766<p>Production fitness: TB-59dff31</p></td><td>Implemented as of 9/2025 and currently active</td></tr>
+    <th scope="row">Upcoming</th><td><a href="./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf">v2.0</a></td><td>TB-c5122db</td><td>Transition Configuration passing test result required by 2/20/2026.<p>Issue ticket for requesting operating priority available in Operations Committee repo.<p> <a href="https://github.com/utmimplementationus/operations_committee/issues/246">Subequent implementation deadlines pending.</a></td></tr>
+</table>
+<i>Note: Some links in this table may only be accessible to participants and observers.</i>
 
 ## About the US UTM Implementation
 
@@ -29,8 +35,10 @@ Shared airspace is built around these guiding principles:
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
 * [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_07112025.pdf)
-* [Service Description Document for Strategic Coordination, v2.0](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf)
-* [Requirements Traceability Matrix for Strategic Coordination, v2.0](./docs/SCD-RTM-V2.0.xlsx)
+* (Implemented SDD) [Service Description Document for Strategic Coordination, v1.4](./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf)
+* (Implementation Pending) [Service Description Document for Strategic Coordination, v2.0](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf)
+* (Implemented RTM) [Requirements Traceability Matrix for Strategic Coordination, v1.2](./docs/SCD-RTM-V1.2.xlsx)
+* (Implementation Pending) [Requirements Traceability Matrix for Strategic Coordination, v2.0](./docs/SCD-RTM-V2.0.xlsx)
 
 ## Frequently Asked Questions and Additional Resources
 

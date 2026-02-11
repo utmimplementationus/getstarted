@@ -184,7 +184,7 @@ A Prospective Service Provider must [...] demonstrate to the Technical Committee
 - Pre-Qual environment service account
 - Base URL for your pre-qual flight planner
 - Base URL for your pre-qual version provider
-- If hosting/contracting own DSS, service providers are expected to follow the [onboarding workflow for new DSS instance deployments](https://github.com/utmimplementationus/cert_exchange/blob/main/README.md#on-boarding-usp) in qual-partners.
+- If hosting/contracting own DSS, service providers are expected to follow the [onboarding workflow for new DSS instance deployments](https://github.com/utmimplementationus/cert_exchange/blob/main/README.md#on-boarding-usp) in pre-qual.
 
 </td>
     </tr>

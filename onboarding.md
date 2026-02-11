@@ -14,7 +14,7 @@ Send this information to [the Operations Committee](mailto:onboarding@us-utm.sim
 
 ### 2. Automated Testing Onboarding and other artifacts
 
-Upon signing the governance agreement, applicants will have a 60-calendar-day period to complete their official automated testing onboarding (Gates 1 through 3 as defined in Annex B and in the table below). A test configuration will be provided, enabling applicants to conduct tests independently without affecting existing participants. Reference the table to determine which artifacts are required to show completion of each gate and move to the next gate. Prospective service providers will be asked to provide a variety of artifacts based on the references to the governance agreement, including, but not limited to:
+Upon signing the governance agreement, applicants will have a 120-calendar-day period to complete their official automated testing onboarding (Gates 1 through 3 as defined in Annex B and in the table below). A test configuration will be provided, enabling applicants to conduct tests independently without affecting existing participants. Reference the table to determine which artifacts are required to show completion of each gate and move to the next gate. Prospective service providers will be asked to provide a variety of artifacts based on the references to the governance agreement, including, but not limited to:
 + Files showing automated testing results
 + Documents that show the prospective service provider has an established relationship with an operator, adequate insurance.
 + Certificates showing the prospective service provider's accreditation toward quality, information security and privacy requirements.
@@ -184,7 +184,7 @@ A Prospective Service Provider must [...] demonstrate to the Technical Committee
 - Pre-Qual environment service account
 - Base URL for your pre-qual flight planner
 - Base URL for your pre-qual version provider
-- If hosting/contracting own DSS, DSS URL and CRDB hostnames for the Pre-Qual environment
+- If hosting/contracting own DSS, service providers are expected to follow the [onboarding workflow for new DSS instance deployments](https://github.com/utmimplementationus/cert_exchange/blob/main/README.md#on-boarding-usp) in pre-qual.
 
 </td>
     </tr>
@@ -215,7 +215,7 @@ A Prospective Service Provider must [...] demonstrate to the Technical Committee
     - Qual-Partners environment service account
     - Base URL for your Qual-Partners flight planner
     - Base URL for your Qual-Partners version provider
-    - If hosting/contracting own DSS, DSS URL and CRDB hostnames for the Qual-Partners environment
+    - If hosting/contracting own DSS, provide a link to the completed PR showing that the onboarding workflow for the new DSS instance in pre-qual was completed.
 
 </td>
     </tr>
@@ -241,6 +241,7 @@ GATE 2: Simulation
 - Early Integration Assessment (ecosystem) passing test result
 - Service Provider and Operator declaration for integration of Service Provider and Operator systems
 - Request inclusion in the Simulation Fitness test configuration
+- If hosting/contracting own DSS, provide a link to the completed PR showing that the onboarding workflow for the new DSS instance in qual-partners was completed.
 
 </td>
     </tr>

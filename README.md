@@ -11,7 +11,7 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 ## SDD Version and Status
 <table><tr><th scope="col"> </th><th scope="col">Version</th><th scope="col">Test Baseline</th><th scope="col">Rollout Status</th></tr>
     <th scope="row">Current</th><td><a href="./docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf">v1.4</a></td><td>Onboarding (Issue Tickets 1.2 through 3.1): TB-87bc766<p>Production fitness: TB-59dff31</p></td><td>Implemented as of 9/2025 and currently active</td></tr>
-    <th scope="row">Upcoming</th><td><a href="./docs/UA-UA_Strategic_Coordination_SDD_V2.0.1.pdf">v2.0.1</a></td><td>TB-33da7ed</td><td>Transition Configuration passing test result required by 2/20/2026.<p>Issue ticket for <a href="https://github.com/utmimplementationus/operations_committee/issues/new?template=operational_priority_request.yaml">requesting operating priority</a> available in Operations Committee repo.<p> <a href="https://github.com/utmimplementationus/operations_committee/issues/246">Subequent implementation deadlines pending.</a></td></tr>
+    <th scope="row">Upcoming</th><td><a href="./docs/UA-UA_Strategic_Coordination_SDD_V2.0.1.pdf">v2.0.1</a></td><td>TB-33da7ed</td><td>Transition Configuration passing test result required by 3/6/2026.<p>Issue ticket for <a href="https://github.com/utmimplementationus/operations_committee/issues/new?template=operational_priority_request.yaml">requesting operating priority</a> available in Operations Committee repo.<p> <a href="https://github.com/utmimplementationus/operations_committee/issues/246">Subequent implementation deadlines pending.</a></td></tr>
 </table>
 <i>Note: Some links in this table may only be accessible to participants and observers.</i>
 

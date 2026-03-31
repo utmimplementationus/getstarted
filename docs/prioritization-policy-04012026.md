@@ -23,6 +23,21 @@ High priority is reserved for time-critical operations where immediate response 
 
 All other routine operations that do not meet these life-dependent criteria, such as standard package deliveries, infrastructure inspections, and general photography or data collection, are classified as standard priority.
 
+Operators are expected to train their personnel, and/or to have corresponding business rules or automation, as to the eligible uses of High Priority. The following examples are intended as illustrative and not all-encompassing. 
+
+High-priority missions include:
+* Responding to a 911 call where safety of life is at stake.
+* Active search-and-rescue.
+* Delivery of medical supplies where safety of life is at stake, such as blood, plasma, AED, or Narcan.
+* Disaster response where safety of life is at stake.
+
+The following missions *are not considered* high-priority:
+* Training missions
+* Overwatch, surveillance or patrols not in response to a specific call for service where safety of life is at stake.
+* Photography and data collection at the scene of a previous high-priority response.
+* Delivery of basic medical supplies and medicine, such as over-the-counter or prescription medication, bandages, or supplements.
+* Infrastructure inspection.
+
 ## **USP Behaviors for Operational Priority Conflicts**
 
 The technical committee will revise the Service Description Document (SDD) and other applicable materials, based on the requirements in ASTM F3548-21 to enable high priority operations. 
@@ -31,7 +46,9 @@ USPs will notify operators in the Activated state in the event of an overlap inv
 
 ## **Criteria for Operators Seeking to Use High Priority**
 
-Operators intending to use high priority will submit an issue ticket to the Operations Committee. The operator will include one of the following artifacts to substantiate its eligibility for use of high priority:
+Operators who intend to fly using high priority are required to conduct Operational Practicality simulations with impacted stakeholders (other USPs and operators) before submitting the issue ticket below. The Operational Practicality simulation must reasonably represent the proportion, frequency, duration and operational intent geometry of high-priority and standard-priority missions that the operator expects to conduct. The acceptance process for the Operational Practicality simulations is defined in Annex C, Sec. 5(c). The above provisions apply regardless of whether the operator has previously completed onboarding.
+
+Operators intending to use high priority will submit an issue ticket to the Operations Committee. In addition to including a link for the issue ticket showing the accepted Operational Practicality simulation described in the previous paragraph, the operator will include one of the following artifacts to substantiate its eligibility for use of high priority:
 
 1) Cover page of Special Governmental Interest (SGI) waiver or COA  
 2) Certificate of Waiver or Authorization (COA)  
@@ -53,9 +70,3 @@ The Technical Committee will update the monthly reporting template to support da
 ## **Changes to this Policy**
 
 Any affected stakeholder may use the process defined in Annex C, Section 7(h), Issue Resolution, to request a change to this policy, including introduction of new priority levels, or changes to the allowable uses or criteria for existing priority levels. 
-
-## **Further Notes on Implementation**
-
-There is no criteria in Annex C to reassess operational practicality due to the introduction or use of high priority. Initial assessment of airspace efficiency impacts is expected to be via monthly data reporting from USPs/Operators. At the discretion of affected operators, new operational practicality simulations may be conducted, but this is not required in order to use high priority during actual operations.
-
-Once an artifact is reviewed and accepted, the operator is approved to use high priority for all applicable missions without further action. The ongoing impact of these priority flights on airspace efficiency is monitored through monthly data reports, not by re-assessing each flight. The FAA will also have oversight processes that can assess the validity of declared high-priority flights. 

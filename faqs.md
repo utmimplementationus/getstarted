@@ -55,7 +55,7 @@ No, joining the US UTM Implementation is free of charge. However, according to t
 
 ### What documentation should I review before starting onboarding?
 
-Review the [Governance Agreement](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_04012025.pdf), [SDD](https://github.com/utmimplementationus/getstarted/blob/main/docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf), and issue ticket workflow to understand expectations and technical requirements.
+Review the [Governance Agreement](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_04012025.pdf), [SDD](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf), and issue ticket workflow to understand expectations and technical requirements.
 
 ### What are the onboarding gates and what do they require?
 
@@ -83,7 +83,7 @@ This ensures the Operations Committee is notified and can coordinate the change 
 
 ### Where can I find the latest version of Strategic Coordination Service Description Document (SDD)
 
-You can find the SDD v1.4. [here](https://github.com/utmimplementationus/getstarted/blob/main/docs/UA-UA_Strategic_Coordination_SDD_V1.4.pdf).
+You can find the SDD v2.0.3. [here](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf).
 
 ### Where can I find the technical roadmap and automated testing baseline as per Section 3.b of the Governance Agreement.
 

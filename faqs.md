@@ -55,11 +55,11 @@ No, joining the US UTM Implementation is free of charge. However, according to t
 
 ### What documentation should I review before starting onboarding?
 
-Review the [Governance Agreement](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_04012025.pdf), [SDD](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf), and issue ticket workflow to understand expectations and technical requirements.
+Review the [Governance Agreement](./docs/USP_Agreement_05212026.pdf), [SDD](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf), and issue ticket workflow to understand expectations and technical requirements.
 
 ### What are the onboarding gates and what do they require?
 
-There are three gates: Gate 1 (Qualification Testing), Gate 2 (Simulation), and Gate 3 (Production Flights). Each gate has specific technical and operational criteria outlined in the [Governance Agreement](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_04012025.pdf).
+There are three gates: Gate 1 (Qualification Testing), Gate 2 (Simulation), and Gate 3 (Production Flights). Each gate has specific technical and operational criteria outlined in the [Governance Agreement](./docs/USP_Agreement_05212026.pdf).
 
 
 ### Where can I find onboarding materials?

@@ -32,7 +32,7 @@ We are excited to have you join us in advancing the US UTM Implementation. Pleas
 <a name="onboarding-table"></a>
 References
 - [Operational Practicality Best Practices](https://github.com/utmimplementationus/operations_committee/blob/main/operational-practicality-best-practices.md)
-- [Governance Agreement](./docs/USP_Agreement_04012025.pdf)
+- [Governance Agreement](./docs/USP_Agreement_05212026.pdf)
 
 <table>
 <tr>

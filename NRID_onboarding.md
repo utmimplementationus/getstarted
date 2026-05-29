@@ -14,7 +14,7 @@ The onboarding framework ensures a standardized, traceable, and scalable process
     <tr>
 <th>
 
-[Agreement Section](https://github.com/utmimplementationus/getstarted/blob/main/docs/USP_Agreement_07112025.pdf)
+Agreement Section
 
 </th>
         <th>Requirement Text</th>
@@ -93,7 +93,7 @@ Declaration that USP has achieved Strategic Coordination Gate 0 requirements.
 <td>1.1</td>
 <td>
 
-**[Service Provider]** [\[Optional\] Submit Issue Ticket for requesting access to the Pre-Qual environment](https://github.com/utmimplementationus/operations_committee/issues/new?assignees=peter-sachs%2Caganjoo&amp;labels=pre-qual%2Conboarding&amp;projects=&amp;template=1_pre-qual-onboarding.yaml&amp;title=Pre-qual+environment+onboarding+request+for+%3Cinsert+company+name+here%3E) if you need access to this environment for own system testing with
+**[Service Provider]** [\[Optional\] Submit Issue Ticket for requesting access to the Pre-Qual environment](https://github.com/utmimplementationus/operations_committee/issues/new?template=%5BNRID-1.1%5D_request_access_prequal_template.yaml) if you need access to this environment for own system testing with
 
 * Requested Service: Network Remote ID
 * Pre-Qual environment service account (same as Strategic Coordination Service)
@@ -141,7 +141,7 @@ Display Provider:
     * Injection base URL
   * Display Provider:
     * Observation base URL
-  * How to recognize owned servers
+  * Server URL regular expressions for USS identification
   * Test environment NetRID version provider URL
   * NetRID DSS instances base URL
   * NetRID DSS nodes

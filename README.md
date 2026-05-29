@@ -3,11 +3,11 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 ## Recent Updates
-+ May 22, 2026: [Service Description Document](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf) updated to v2.0.3.
++ May 21, 2026: [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_05212026.pdf) Updated
++ April 22, 2026: [Service Description Document](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf) updated to v2.0.3.
 + April 8, 2026: [Prioritization policy](./docs/prioritization-policy-04082026.md) updated.
 + April 8, 2026: SDD v2.0.1 implementation timeline updated.
 + January 21, 2026: [Service Description Document](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.1.pdf) updated to v2.0.1.
-+ October 20, 2025: [Service Description Document](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.pdf) updated to v2.0 and [Requirements Traceability Matrix](./docs/SCD-RTM-V2.0.xlsx) updated to v2.0.
 
 ## SDD Version and Status
 <table><tr><th scope="col"> </th><th scope="col">Version</th><th scope="col">Test Baseline</th><th scope="col">Montly Reporting Template</th><th scope="col">Rollout Status</th></tr>
@@ -35,7 +35,7 @@ Shared airspace is built around these guiding principles:
 
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
-* [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_07112025.pdf)
+* [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_05212026.pdf)
 * (Implemented SDD) [Service Description Document for Strategic Coordination, v2.0.3](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf)
 * (Implemented RTM) [Requirements Traceability Matrix for Strategic Coordination, v2.0](./docs/SCD-RTM-V2.0.xlsx)
 

@@ -4,6 +4,7 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 
 ## Recent Updates
 + May 21, 2026: [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_05212026.pdf) Updated
++ May 19, 2026: [Network Remote ID SDD](./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf) v1.0 introduced.
 + April 22, 2026: [Service Description Document](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf) updated to v2.0.3.
 + April 8, 2026: [Prioritization policy](./docs/prioritization-policy-04082026.md) updated.
 + April 8, 2026: SDD v2.0.1 implementation timeline updated.
@@ -11,7 +12,8 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 
 ## SDD Version and Status
 <table><tr><th scope="col"> </th><th scope="col">Version</th><th scope="col">Test Baseline</th><th scope="col">Montly Reporting Template</th><th scope="col">Rollout Status</th></tr>
-    <th scope="row">Current</th><td><a href="./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf">v2.0.3</a></td><td>TB-722d968</td><td><a href="./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx">v2.0</a></td><td>Implemented as of 4/2026 and currently active</td></tr>
+    <th scope="row">SCD</th><td><a href="./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf">v2.0.3</a></td><td>TB-722d968</td><td><a href="./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx">v2.0</a></td><td>Implemented as of 4/2026 and currently active</td></tr>
+    <th scope="row">NRID</th><td><a href="./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf">v1.0</a></td><td>TB-3765023</td><td><a href="./docs/Network_Remote_Identification_Service_Provider_Monthly_Reporting_Template_V1.0.xlsx">v1.0</a></td><td>Implemented as of 5/2026 and currently active</td></tr>
 </table>
 <i>Note: Some links in this table may only be accessible to participants and observers.</i>
 
@@ -36,8 +38,10 @@ Shared airspace is built around these guiding principles:
 With performance-based criteria, UTM service providers and their operators can participate via key documents, which include onboarding instructions, available below:
 
 * [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_05212026.pdf)
-* (Implemented SDD) [Service Description Document for Strategic Coordination, v2.0.3](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf)
-* (Implemented RTM) [Requirements Traceability Matrix for Strategic Coordination, v2.0](./docs/SCD-RTM-V2.0.xlsx)
+* (SCD SDD) [Service Description Document for Strategic Coordination, v2.0.3](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf)
+* (SCD RTM) [Requirements Traceability Matrix for Strategic Coordination, v2.0](./docs/SCD-RTM-V2.0.xlsx)
+* (NRID SDD) [Service Description Document for Network Remote Identification, v1.0](./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf)
+* (NRID RTM) [Requirements Traceability Matrix for Network Remote Identification, v1.0](./docs/Network_Remote_Identification_Compliance_Matrix_V1.0.xlsx)
 
 ## Frequently Asked Questions and Additional Resources
 

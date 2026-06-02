@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "utm-site",
+      "runtimeExecutable": "/Users/tylerdicks/.nvm/versions/node/v18.20.8/bin/node",
+      "runtimeArgs": ["/Users/tylerdicks/Documents/GitHub/getstarted/.claude/serve_site.js"],
+      "port": 4321
+    },
+    {
+      "name": "utm-explore",
+      "runtimeExecutable": "/Users/tylerdicks/.nvm/versions/node/v18.20.8/bin/node",
+      "runtimeArgs": ["/Users/tylerdicks/Documents/GitHub/getstarted/.claude/serve_explore.js"],
+      "port": 4322
+    }
+  ]
+}

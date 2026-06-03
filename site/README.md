@@ -70,7 +70,10 @@ README at page load, parses those tables, and fills any element tagged with:
 - `data-vhref="<key>"` — sets the element's link (rewritten to a GitHub blob URL)
 
 Keys follow `service.doc.field`, e.g. `scd.sdd.version`, `nrid.reporting.href`,
-`agreement.href`, `prioritization.href`, `dss.href`, `report.href`.
+`scd.effective`, `scd.status`, `agreement.href`, `prioritization.effective`,
+`dss.effective`, `dss.href`, `report.href`. Service columns are mapped by header
+name (so new columns like `Effective`/`Status` become `scd.effective`/`scd.status`
+automatically); governance rows are read as `Document | Effective | Status | Link`.
 
 **To update the site after a document changes, edit only the README tables.** No site edit
 is needed. If the fetch fails (offline, README mid-edit, markers missing), each tagged

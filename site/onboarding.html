@@ -25,7 +25,7 @@
       <li><a href="policies.html">Policies</a></li>
       <li><a href="faqs.html">FAQs</a></li>
       <li><a href="resources.html">Resources</a></li>
-      <li class="nav-cta"><a class="btn btn-primary" href="https://forms.gle/3SgLJ6jnj9PVeDSF6">Become a Participant</a></li>
+      <li class="nav-cta"><a class="btn btn-primary" href="https://github.com/utmimplementationus/getstarted/blob/main/onboarding.md">Become a Participant</a></li>
     </ul>
   </div>
 </header>
@@ -55,6 +55,12 @@
   <div class="container" style="max-width:840px">
     <span class="eyebrow">The journey, step by step</span>
     <h2>What happens, and in what order</h2>
+    <div class="journey-toggle" role="tablist" aria-label="Choose your onboarding path">
+      <button class="jt-btn active" role="tab" aria-selected="true" aria-controls="journey-sp" id="tab-sp">I'm a Service Provider</button>
+      <button class="jt-btn" role="tab" aria-selected="false" aria-controls="journey-op" id="tab-op">I'm an Operator</button>
+    </div>
+
+    <div class="journey-panel" id="journey-sp" role="tabpanel" aria-labelledby="tab-sp">
     <p class="lead">There are two starting steps, then three "gates" you pass in sequence. Each gate is about <strong>showing your system works</strong>, first on its own, then with others, then in production.</p>
 
     <div class="journey">
@@ -141,7 +147,76 @@
           <p class="mb-0">You receive a certificate from the Co-Chairs and can request access to the production environment. Voting rights are granted after Gate&nbsp;3. Keep meeting the ongoing requirements to stay active. Welcome to the shared airspace.</p>
         </div>
       </div>
-    </div>
+    </div><!-- /.journey -->
+    </div><!-- /#journey-sp -->
+
+    <!-- OPERATOR PANEL (high-level; details in a later pass) -->
+    <div class="journey-panel" id="journey-op" role="tabpanel" aria-labelledby="tab-op" hidden>
+      <p class="lead">Already working with a service provider that's live on the network?</p>
+
+      <div class="journey">
+        <!-- Step 1 -->
+        <div class="step reveal">
+          <div class="badge">1</div>
+          <div class="step-card">
+            <span class="step-tag">Get started</span>
+            <h3>Partner with an onboarded service provider</h3>
+            <p>Parter with a service provider that has already completed onboarding and is live on the network. They provision your UTM services and connect your operations to the shared airspace.</p>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step reveal">
+          <div class="badge">2</div>
+          <div class="step-card">
+            <span class="step-tag">Paperwork</span>
+            <h3>Sign service provider's SLA; governance flows down to you</h3>
+            <p>Sign a Service Level Agreement with your provider. The SLA flows the cohort's governance requirements down to you as the operator, in addition to provider specific terms & conditions. You, or your provider on your behalf, submit the signed signature page as evidence.</p>
+            <ul class="checklist">
+              <li>Signed SLA between you and your service provider</li>
+              <li>SLA signature page submitted (by you or your USP)</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step reveal">
+          <div class="badge go">3</div>
+          <div class="step-card gate" style="border-top-color:var(--cyan)">
+            <span class="step-tag" style="color:#067a6f">Operational practicality</span>
+            <h3>Prove practicality through simulation</h3>
+            <p>With your service provider, run coordinated, simultaneous shared-airspace simulation with the overlapping operators you reasonably expect to encounter, to establish operational practicality.</p>
+            <ul class="checklist">
+              <li>Shared-airspace simulation with overlapping members</li>
+              <li>KML of operational intent volumes</li>
+              <li>Aggregate conformance report</li>
+              <li>Affirmation from each operator</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Optional -->
+        <div class="step reveal">
+          <div class="badge" style="border-style:dashed;border-color:var(--amber)">4</div>
+          <div class="step-card" style="border-style:dashed">
+            <span class="step-tag" style="color:#a9690a">Optional</span>
+            <h3>Request high-priority operations</h3>
+            <p>If you'll fly time-critical, life-safety missions, submit a request to use high priority, along with the required eligibility evidence.</p>
+            <p style="margin-top:6px"><a class="card-link" href="policies.html#prioritization">See the prioritization policy</a></p>
+          </div>
+        </div>
+
+        <!-- Done -->
+        <div class="step reveal">
+          <div class="badge go" style="background:var(--cyan);border-color:var(--cyan);color:#fff"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+          <div class="step-card" style="background:linear-gradient(135deg,#e3f7f4,#eaf4fc); border-color:#bfe9e3">
+            <span class="step-tag" style="color:#067a6f">You're in</span>
+            <h3>Cleared to operate in shared airspace</h3>
+            <p class="mb-0">You're ready to fly alongside other members in shared airspace, with your provider handling the UTM service connection.</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /#journey-op -->
   </div>
 </section>
 
@@ -187,7 +262,7 @@
   <div class="container">
     <div class="cta-band reveal">
       <div><h2>Ready when you are.</h2><p>Express your interest and an Operations Committee co-chair will guide you through signing and your first gate.</p></div>
-      <a class="btn btn-outline btn-lg" href="https://forms.gle/3SgLJ6jnj9PVeDSF6">Become a Participant →</a>
+      <a class="btn btn-outline btn-lg" href="https://github.com/utmimplementationus/getstarted/blob/main/onboarding.md">Become a Participant →</a>
     </div>
   </div>
 </section>
@@ -200,7 +275,7 @@
         <p>Operationalizing UAS Traffic Management to enable safe, dense, overlapping drone operations across the United States.</p>
       </div>
       <div><h4>Explore</h4><a href="about.html">About the Cohort</a><a href="onboarding.html">How to Join</a><a href="policies.html">Policies</a><a href="faqs.html">FAQs</a><a href="resources.html">Resources</a></div>
-      <div><h4>Get involved</h4><a href="https://forms.gle/3SgLJ6jnj9PVeDSF6">Become a Participant</a><a href="mailto:onboarding@us-utm.simplelogin.com">Operations Committee</a><a href="mailto:technical-committee@us-utm.simplelogin.com">Technical Committee</a></div>
+      <div><h4>Get involved</h4><a href="https://github.com/utmimplementationus/getstarted/blob/main/onboarding.md">Become a Participant</a><a href="mailto:onboarding@us-utm.simplelogin.com">Operations Committee</a><a href="mailto:technical-committee@us-utm.simplelogin.com">Technical Committee</a></div>
       <div><h4>Standards &amp; partners</h4><a href="https://www.astm.org/f3548-21.html">ASTM F3548-21</a><a href="https://gutma.org/">GUTMA</a><a href="https://interussplatform.org/">InterUSS Platform</a><a href="https://github.com/utmimplementationus/getstarted">GitHub repository</a></div>
     </div>
     <div class="foot-bottom"><span>© 2026 US Shared Airspace UTM Implementation cohort. Prototype site for demonstration.</span><span>Some links require participant or observer access.</span></div>

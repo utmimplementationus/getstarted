@@ -219,6 +219,21 @@ p { margin: 0 0 1rem; }
 .principle.lead-principle p { color: #fff; font-size: 1.05rem; }
 .principle.lead-principle::before { background: var(--cyan); color: var(--navy); }
 
+/* ---------- Journey path toggle (Service Provider / Operator) ---------- */
+.journey-toggle {
+  display: inline-flex; gap: 4px; padding: 4px; margin: 8px 0 4px;
+  background: var(--white); border: 1px solid var(--line); border-radius: 999px; box-shadow: var(--shadow-sm);
+}
+.jt-btn {
+  font-family: inherit; font-weight: 700; font-size: .95rem; color: var(--slate);
+  background: none; border: 0; cursor: pointer; padding: .6rem 1.25rem; border-radius: 999px;
+  display: inline-flex; align-items: center; gap: .5rem; transition: background .15s ease, color .15s ease;
+}
+.jt-btn:hover { color: var(--navy); }
+.jt-btn.active { background: var(--blue); color: #fff; }
+.journey-panel[hidden] { display: none; }
+@media (max-width: 520px){ .journey-toggle { width: 100%; } .jt-btn { flex: 1; justify-content: center; padding: .6rem .7rem; } }
+
 /* ---------- Timeline / gates ---------- */
 .journey { position: relative; margin-top: 30px; }
 .journey::before {

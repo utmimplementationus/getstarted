@@ -62,4 +62,26 @@
       if (empty) empty.style.display = anyVisible ? "none" : "block";
     });
   }
+
+  // --- How-to-join journey toggle (Service Provider / Operator) ---
+  var jtBtns = document.querySelectorAll(".jt-btn");
+  if (jtBtns.length) {
+    jtBtns.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var targetId = btn.getAttribute("aria-controls");
+        jtBtns.forEach(function (b) {
+          var on = b === btn;
+          b.classList.toggle("active", on);
+          b.setAttribute("aria-selected", on ? "true" : "false");
+        });
+        document.querySelectorAll(".journey-panel").forEach(function (p) {
+          p.hidden = (p.id !== targetId);
+        });
+        // ensure the newly shown panel's steps are visible (they may never have intersected while hidden)
+        document.querySelectorAll("#" + targetId + " .reveal").forEach(function (el) {
+          el.classList.add("in");
+        });
+      });
+    });
+  }
 })();

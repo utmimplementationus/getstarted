@@ -10,6 +10,11 @@ on:
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:                # allow manual runs from the Actions tab
 
+# Run the bundled JavaScript actions on Node 24 (Node 20 is being deprecated in 2026).
+# Lets us keep the current action versions without waiting on new releases.
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 # Permissions the Pages deploy needs
 permissions:
   contents: read

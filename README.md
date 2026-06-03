@@ -10,12 +10,29 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 + April 8, 2026: SDD v2.0.1 implementation timeline updated.
 + January 21, 2026: [Service Description Document](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.1.pdf) updated to v2.0.1.
 
-## SDD Version and Status
-<table><tr><th scope="col"> </th><th scope="col">Version</th><th scope="col">Test Baseline</th><th scope="col">Montly Reporting Template</th><th scope="col">Rollout Status</th></tr>
-    <th scope="row">SCD</th><td><a href="./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf">v2.0.3</a></td><td>TB-722d968</td><td><a href="./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx">v2.0</a></td><td>Implemented as of 4/2026 and currently active</td></tr>
-    <th scope="row">NRID</th><td><a href="./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf">v1.0</a></td><td>TB-3765023</td><td><a href="./docs/Network_Remote_Identification_Service_Provider_Monthly_Reporting_Template_V1.0.xlsx">v1.0</a></td><td>Implemented as of 5/2026 and currently active</td></tr>
-</table>
-<i>Note: Some links in this table may only be accessible to participants and observers.</i>
+## Document Versions and Status
+
+<!-- site-data:services START -->
+### Service Documents
+
+| Service | SDD | RTM | Monthly Reporting | Test Baseline | Rollout Status |
+|---------|-----|-----|-------------------|---------------|----------------|
+| SCD  | [v2.0.3](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf) | [v2.0](./docs/SCD-RTM-V2.0.xlsx) | [v2.0](./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx) | TB-722d968 | Implemented as of 4/2026 and currently active |
+| NRID | [v1.0](./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf) | [v1.0](./docs/Network_Remote_Identification_Compliance_Matrix_V1.0.xlsx) | [v1.0](./docs/Network_Remote_Identification_Service_Provider_Monthly_Reporting_Template_V1.0.xlsx) | TB-3765023 | Implemented as of 5/2026 and currently active |
+<!-- site-data:services END -->
+
+<!-- site-data:governance START -->
+### Governance & Policy Documents
+
+| Document | Version / Effective | Status | Link |
+|----------|---------------------|--------|------|
+| Governance Agreement | 2026-05-21 | Active | [PDF](./docs/USP_Agreement_05212026.pdf) |
+| Operational Prioritization Policy | Revised 2026-04-08 | Active | [Policy](./docs/prioritization-policy-04082026.md) |
+| DSS Pooling & Governance Policy | Adopted 2024-08-27 | Active | [Policy](./dss-pooling.md) |
+| Initial Operationalization Report | 2025-03 | Published | [PDF](./docs/Shared_Airspace_Report_v1_FINAL.pdf) |
+<!-- site-data:governance END -->
+
+<i>Note: Some links may only be accessible to participants and observers.</i>
 
 ## About the US UTM Implementation
 

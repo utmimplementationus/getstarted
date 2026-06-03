@@ -56,3 +56,28 @@ arbitrary `/site` folder. Three options:
 - Interactions (mobile nav, scroll reveal, FAQ search) live in `assets/js/main.js`.
 - The header and footer are duplicated inline in each page — update all pages together,
   or introduce a templating/include step if this graduates beyond a prototype.
+
+## Keeping document versions in sync (README-driven)
+
+Document versions and links are **not** hand-maintained on the site. The single source of
+truth is the **Markdown tables in the repository root `README.md`**, between the
+`<!-- site-data:services -->` and `<!-- site-data:governance -->` markers.
+
+`assets/js/versions.js` (loaded on `resources.html` and `policies.html`) fetches the raw
+README at page load, parses those tables, and fills any element tagged with:
+
+- `data-vtext="<key>"` — sets the element's text (e.g. a version label)
+- `data-vhref="<key>"` — sets the element's link (rewritten to a GitHub blob URL)
+
+Keys follow `service.doc.field`, e.g. `scd.sdd.version`, `nrid.reporting.href`,
+`agreement.href`, `prioritization.href`, `dss.href`, `report.href`.
+
+**To update the site after a document changes, edit only the README tables.** No site edit
+is needed. If the fetch fails (offline, README mid-edit, markers missing), each tagged
+element keeps the hardcoded fallback value baked into the HTML, so the page always renders
+correctly — just possibly one version behind.
+
+> Note: the branch the sync reads from is the `BRANCH` constant at the top of
+> `versions.js`. It is currently set to `public_page_improvements` for pre-merge testing;
+> **set it back to `main` before production.** New versions appear on the live site within
+> the raw CDN's ~5-minute cache after the README change lands on that branch.

@@ -20,41 +20,21 @@ into a clear, approachable experience for newcomers.
 | `faqs.html` | Searchable, filterable FAQ accordion |
 | `resources.html` | Document library (links to the real PDFs/SDDs/templates) + an acronym glossary |
 
-No build step, no dependencies — pure HTML/CSS/vanilla JS. Inter is loaded from Google
-Fonts; everything else is local under `assets/`.
-
 ## Preview locally
 
-Any static file server works. For example:
-
-```bash
-# from the repo root
-cd site && python3 -m http.server 8080   # then open http://localhost:8080
-```
-
-(During development this was served via `.claude/serve_site.js` + `.claude/launch.json`
-for the Claude Code preview panel — handy on macOS where the system Python lacks
-Documents-folder access.)
+Clone repository and open `index.html` or any other web page
 
 ## Deploying to GitHub Pages
 
-GitHub Pages can serve from the repo **root** or a **`/docs`** folder only — not an
-arbitrary `/site` folder. Three options:
-
-1. **Move to root** — copy the contents of `site/` to the repo root (or merge into a
-   Pages branch). `index.html` will be served by Pages while the repo's `README.md`
-   still shows on the GitHub repo page.
-2. **GitHub Actions** — add a workflow that publishes the `site/` directory as the Pages
-   artifact (keeps source isolated). Recommended for keeping the governance docs tidy.
-3. **`/docs` folder** — point Pages at `/docs` and place the site there (note: `/docs`
-   currently holds the official PDFs/spreadsheets).
+This site is deployed to GitHub Pages automatically by a GitHub Actions workflow that publishes the `site/` folder on every push to `main`;
+see the workflow configuration in [`.github/workflows/deploy-pages.yml`](../.github/workflows/deploy-pages.yml).
 
 ## Editing content
 
 - Shared look-and-feel lives in `assets/css/styles.css` (CSS custom properties at the top
   control the palette).
 - Interactions (mobile nav, scroll reveal, FAQ search) live in `assets/js/main.js`.
-- The header and footer are duplicated inline in each page — update all pages together,
+- The header and footer are duplicated inline in each page, update all pages together,
   or introduce a templating/include step if this graduates beyond a prototype.
 
 ## Keeping document versions in sync (README-driven)

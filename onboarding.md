@@ -2,6 +2,8 @@
 
 Welcome to the US UTM Implementation! This page provides an overview of the onboarding process for service providers and operators (including vertically integrated service providers). The text sections are a summary of the high level onboarding steps, [while the table below provides detailed artifacts and requirements](#onboarding-table) that must be completed at each onboarding step. Note that some links in the table will not work until a prospective service provider has received access to the other Github repositories from one of the co-chairs. Please carefully review the guide and associated timelines to determine your readiness to start the process. Additional information is available in the [onboarding section of the FAQs](faqs.md#onboarding-faqs).
 
+Note, the following guidance applies to new service providers onboarding SCD capabilities. Existing service providers adding NRID should follow the separate [NRID onboarding guidance steps](https://github.com/utmimplementationus/getstarted/blob/main/NRID_onboarding.md)
+
 ## 1. Sign the Governance Agreement
 
 To become a participant, the first step is to sign the Governance Agreement Form of Joinder (Annex E). Please provide the email address and name of the point of contact (POC) responsible for signing this document to [the Operations Committee](mailto:onboarding@us-utm.simplelogin.com). The document will then be sent to you for signature via DocuSign.

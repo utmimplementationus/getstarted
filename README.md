@@ -2,7 +2,10 @@
 
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
+**Onboarding guidance:** New service providers onboarding SCD capabilities should follow the [SCD onboarding steps](./onboarding.md). Existing service providers adding Network Remote ID should follow the separate [NRID onboarding guidance steps](./NRID_onboarding.md).
+
 ## Recent Updates
++ June 8, 2026: [Network Remote ID onboarding guidance](./NRID_onboarding.md) introduced.
 + May 21, 2026: [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_05212026.pdf) Updated
 + May 19, 2026: [Network Remote ID SDD](./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf) v1.0 introduced.
 + April 22, 2026: [Service Description Document](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf) updated to v2.0.3.

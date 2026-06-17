@@ -31,55 +31,30 @@ Agreement Section
         <td>0.1</td>
 <td>
 
-0.1
+NA
 
 </td>
 <td>
 
-**[Service Provider]** Submit the following:
-
-Link to issue ticket showing that USP has:
-
-* Achieved Strategic Coordination Gate 0 requirements.
-
-***OR***
-
-* Completed all Strategic Coordination onboarding requirements.
+* Achieved by Strategic Coordination onboarding.
 
 </td>
     </tr>
     <tr>
 <td>
 
-* Achieved per Strategic Coordination Gate 0
 * Submit signed signature page of Service Level Agreement (SLA) that contains NetRID service
 
 </td>
         <td>0.2</td>
 <td>
 
-0.2
+NA
 
 </td>
 <td>
 
-**[Service Provider and Operator]** Submit *one* of the following:
-
-* Signature page of the signed Service Level Agreement between the Service Provider and the Operator.
-
-***OR***
-
-* Vertically Integrated Service Providers must submit a document naming the organization's respective individuals directly responsible for operations and UTM service provision in lieu of an SLA signature page. The document must include an affirmation that internal procedures are in place to identify and assign responsibilities in accordance with this Agreement.
-
-***OR***
-
-* For Service Providers whose initial Operator is a governmental agency, a signed letter of intent may be provided in lieu of an SLA, if the letter of intent includes a date by which the SLA will be signed.
-
-***OR***
-
-* Written confirmation that the USP has provided Terms and Conditions or a similar document that would apply to all users of the service, including specific limitations on data access and data retention.
-
-Declaration that USP has achieved Strategic Coordination Gate 0 requirements.
+* Achieved by Strategic Coordination onboarding.
 
 </td>
     </tr>
@@ -194,6 +169,7 @@ Display Provider:
 <td rowspan=2>
 
 * Pass automated testing (ecosystem) as a part of the software release process
+* Receive confirmation of successful onboarding from Operations Committee Co-Chairs.
 
 </td>
         <td>3.1</td>
@@ -217,33 +193,14 @@ Display Provider:
 </td>
 <td>
 
-**\[Service Provider\]** Submit Issue Ticket for Gate 3 completion with Production Fitness (ecosystem) passing test result
-
-</td>
-    </tr>
-    <tr>
-        <td>Annex F, Section (3), GATE 3: Production Flights</td>
-<td>
-
-* Receive confirmation of successful onboarding from Operations Committee Co-Chairs.
-
-</td>
-        <td>3.5</td>
-<td>
-
-3.5
-
-</td>
-<td>
-
-**\[Operations Committee\]** Submit Issue Ticket for onboarding completion
+**\[Service Provider\]** Submit Issue Ticket for Gate 3 completion with Production Fitness (ecosystem) passing test result and request onboarding completion.
 
 </td>
     </tr>
     <tr>
 <td colspan=6>
 
-**Note: Upon completion of onboarding requirements, the prospective Service Provider will receive confirmation of successful onboarding from Operations Committee Co-Chairs and may request access to the production environment**
+**Note: Upon completion of onboarding requirements, the prospective Service Provider will receive confirmation of successful onboarding from Operations Committee Co-Chairs and may request access to the production environment via a [4.0] ticket**
 
 </td>
     </tr>

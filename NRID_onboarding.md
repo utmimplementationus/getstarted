@@ -4,7 +4,7 @@ This document defines the sequential onboarding requirements and actions for pro
 
 The onboarding framework ensures a standardized, traceable, and scalable process for integrating new participants into the UTM ecosystem across services.
 
-## NRID Onboarding Requirements
+## Network Remote ID (NRID) Onboarding Requirements
 
 <table>
 <tr>
@@ -31,12 +31,16 @@ Agreement Section
         <td>0.1</td>
 <td>
 
-NA
+0.1
 
 </td>
 <td>
 
-* Achieved by Strategic Coordination onboarding.
+**[Service Provider]** Submit the following:
+
+Link to issue ticket showing that USP has:
+
+* Achieved Strategic Coordination Gate 0 requirements.
 
 </td>
     </tr>
@@ -49,12 +53,28 @@ NA
         <td>0.2</td>
 <td>
 
-NA
+0.1
 
 </td>
 <td>
 
-* Achieved by Strategic Coordination onboarding.
+**[Service Provider and Operator]** Submit *one* of the following:
+
+* Signature page of the signed Service Level Agreement between the Service Provider and the Operator.
+
+***OR***
+
+* Vertically Integrated Service Providers must submit a document naming the organization's respective individuals directly responsible for operations and UTM service provision in lieu of an SLA signature page. The document must include an affirmation that internal procedures are in place to identify and assign responsibilities in accordance with this Agreement.
+
+***OR***
+
+* For Service Providers whose initial Operator is a governmental agency, a signed letter of intent may be provided in lieu of an SLA, if the letter of intent includes a date by which the SLA will be signed.
+
+***OR***
+
+* Written confirmation that the USP has provided Terms and Conditions or a similar document that would apply to all users of the service, including specific limitations on data access and data retention.
+
+Declaration that USP has achieved Strategic Coordination Gate 0 requirements.
 
 </td>
     </tr>

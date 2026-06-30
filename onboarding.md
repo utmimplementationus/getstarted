@@ -320,12 +320,13 @@ Achieving Operational Practicality: Operators shall make good faith efforts to r
 </td>
     </tr>
     <tr>
-        <td rowspan=3>Annex B</td>
+        <td rowspan=2>Annex B</td>
 <td rowspan=2>
 
 GATE 3: Production Flights \- Service Provider
 
 * Pass automated testing (ecosystem) as a part of the software release process
+* Receive confirmation of successful onboarding form Operations Committee Co-Chairs
 
 </td>
         <td>3.3</td>
@@ -349,34 +350,14 @@ GATE 3: Production Flights \- Service Provider
 </td>
 <td>
 
-**\[Service Provider\]** Submit Issue Ticket for Gate 3 completion with Production Fitness (ecosystem) passing test result
-
-</td>
-    </tr>
-    <tr>
-<td>
-
-GATE 3: Production Flights \- Service Provider
-
-* Receive confirmation of successful onboarding form Operations Committee Co-Chairs
-
-</td>
-        <td>3.5</td>
-<td>
-
-**3.5**
-
-</td>
-<td>
-
-**\[Operations Committee\]** Submit Issue Ticket for onboarding completion.
+**\[Service Provider\]** Submit Issue Ticket for Gate 3 completion with Production Fitness (ecosystem) passing test result and request certificate of onboarding completion.
 
 </td>
     </tr>
     <tr>
 <td colspan=5>
 
-**Note: Upon completion of onboarding requirements, the prospective Service Provider will receive confirmation of successful onboarding from Operations Committee Co-Chairs and may request access to the production environment**
+**Note: Upon completion of onboarding requirements, the prospective Service Provider will receive confirmation of successful onboarding from Operations Committee Co-Chairs and may request access to the production environment via a [4.0] ticket.**
 
 </td>
     </tr>

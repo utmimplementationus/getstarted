@@ -63,6 +63,40 @@
     });
   }
 
+  // --- Become a Participant: prefilled intake email ---
+  // The CTA anchors carry a plain `mailto:` href and a `data-intake` marker so
+  // they still work without JS. Here we enrich them with a single, centrally
+  // defined intake template (subject + structured body). Update it once here.
+  var intakeLinks = document.querySelectorAll("a[data-intake]");
+  if (intakeLinks.length) {
+    var intakeTo = "onboarding@us-utm.simplelogin.com";
+    var intakeSubject = "Intake: Request to join - [your organization]";
+    var intakeBody = [
+      "Organization:",
+      "",
+      "Joining as (Service Provider / Vertically Integrated Service Provider):",
+      "",
+      "Signing point of contact - name:",
+      "Signing point of contact - email:",
+      "",
+      "Proposed UTM service(s) (Strategic Coordination / Network Remote ID):",
+      "",
+      "Operator(s) served, if available:",
+      "",
+      "Committee points of contact (name, email, GitHub handle):",
+      "- Operations Committee POC:",
+      "- Technical Committee POC:",
+      "- Accountable Executive:",
+      "",
+      "Notes:",
+      ""
+    ].join("\n");
+    var intakeHref = "mailto:" + intakeTo +
+      "?subject=" + encodeURIComponent(intakeSubject) +
+      "&body=" + encodeURIComponent(intakeBody);
+    intakeLinks.forEach(function (a) { a.setAttribute("href", intakeHref); });
+  }
+
   // --- How-to-join journey toggle (Service Provider / Operator) ---
   var jtBtns = document.querySelectorAll(".jt-btn");
   if (jtBtns.length) {

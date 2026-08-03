@@ -4,7 +4,7 @@ This document defines the sequential onboarding requirements and actions for pro
 
 The onboarding framework ensures a standardized, traceable, and scalable process for integrating new participants into the UTM ecosystem across services.
 
-## NRID Onboarding Requirements
+## Network Remote ID (NRID) Onboarding Requirements
 
 <table>
 <tr>
@@ -42,23 +42,18 @@ Link to issue ticket showing that USP has:
 
 * Achieved Strategic Coordination Gate 0 requirements.
 
-***OR***
-
-* Completed all Strategic Coordination onboarding requirements.
-
 </td>
     </tr>
     <tr>
 <td>
 
-* Achieved per Strategic Coordination Gate 0
 * Submit signed signature page of Service Level Agreement (SLA) that contains NetRID service
 
 </td>
         <td>0.2</td>
 <td>
 
-0.2
+0.1
 
 </td>
 <td>
@@ -194,6 +189,7 @@ Display Provider:
 <td rowspan=2>
 
 * Pass automated testing (ecosystem) as a part of the software release process
+* Receive confirmation of successful onboarding from Operations Committee Co-Chairs.
 
 </td>
         <td>3.1</td>
@@ -217,33 +213,14 @@ Display Provider:
 </td>
 <td>
 
-**\[Service Provider\]** Submit Issue Ticket for Gate 3 completion with Production Fitness (ecosystem) passing test result
-
-</td>
-    </tr>
-    <tr>
-        <td>Annex F, Section (3), GATE 3: Production Flights</td>
-<td>
-
-* Receive confirmation of successful onboarding from Operations Committee Co-Chairs.
-
-</td>
-        <td>3.5</td>
-<td>
-
-3.5
-
-</td>
-<td>
-
-**\[Operations Committee\]** Submit Issue Ticket for onboarding completion
+**\[Service Provider\]** Submit Issue Ticket for Gate 3 completion with Production Fitness (ecosystem) passing test result and request onboarding completion.
 
 </td>
     </tr>
     <tr>
 <td colspan=6>
 
-**Note: Upon completion of onboarding requirements, the prospective Service Provider will receive confirmation of successful onboarding from Operations Committee Co-Chairs and may request access to the production environment**
+**Note: Upon completion of onboarding requirements, the prospective Service Provider will receive confirmation of successful onboarding from Operations Committee Co-Chairs and may request access to the production environment via a [4.0] ticket**
 
 </td>
     </tr>

@@ -11,7 +11,58 @@
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
     });
     links.addEventListener("click", function (e) {
-      if (e.target.tagName === "A") links.classList.remove("open");
+      if (e.target.tagName !== "A") return;
+      links.classList.remove("open");
+      links.querySelectorAll(".nav-drop.open").forEach(closeDrop);
+    });
+  }
+
+  // --- Nav dropdowns ---
+  // JS owns the open state so `aria-expanded` always matches what is visible.
+  // Adding .js-drops retires the CSS hover fallback in styles.css.
+  var drops = Array.prototype.slice.call(document.querySelectorAll(".nav-drop"));
+  // hover-open applies only to a real pointer on the wide layout, so a tap on a
+  // large touch screen does not open then immediately close the menu
+  var hoverNav = window.matchMedia("(min-width: 861px) and (hover: hover)");
+  function setDrop(d, on) {
+    d.classList.toggle("open", on);
+    var b = d.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", on ? "true" : "false");
+  }
+  function closeDrop(d) { setDrop(d, false); }
+  drops.forEach(function (d) {
+    var btn = d.querySelector(".nav-drop-btn");
+    if (!btn) return;
+    btn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var on = !d.classList.contains("open");
+      drops.forEach(closeDrop);
+      setDrop(d, on);
+    });
+    d.addEventListener("mouseenter", function () {
+      if (hoverNav.matches) setDrop(d, true);
+    });
+    d.addEventListener("mouseleave", function () {
+      // keep it open if the keyboard is still inside the menu
+      if (hoverNav.matches && !d.contains(document.activeElement)) setDrop(d, false);
+    });
+    d.addEventListener("focusout", function (e) {
+      if (!d.contains(e.relatedTarget)) setDrop(d, false);
+    });
+  });
+  if (drops.length) {
+    if (links) links.classList.add("js-drops");
+    document.addEventListener("click", function (e) {
+      drops.forEach(function (d) { if (!d.contains(e.target)) closeDrop(d); });
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "Escape") return;
+      drops.forEach(function (d) {
+        if (!d.classList.contains("open")) return;
+        closeDrop(d);
+        var b = d.querySelector(".nav-drop-btn");
+        if (b) b.focus();
+      });
     });
   }
 
@@ -19,7 +70,14 @@
   var here = (location.pathname.split("/").pop() || "index.html").toLowerCase();
   document.querySelectorAll(".nav-links a").forEach(function (a) {
     var href = (a.getAttribute("href") || "").toLowerCase();
-    if (href === here || (here === "" && href === "index.html")) a.classList.add("active");
+    if (href === here || (here === "" && href === "index.html")) {
+      a.classList.add("active");
+      var parent = a.closest && a.closest(".nav-drop");
+      if (parent) {
+        var pbtn = parent.querySelector(".nav-drop-btn");
+        if (pbtn) pbtn.classList.add("active");
+      }
+    }
   });
 
   // --- Scroll reveal ---

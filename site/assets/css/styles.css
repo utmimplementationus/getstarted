@@ -100,16 +100,46 @@ p { margin: 0 0 1rem; }
 .brand-text strong { font-size: 1rem; line-height: 1.1; }
 
 .nav-links { display: flex; align-items: center; gap: 4px; list-style: none; margin: 0; padding: 0; }
-.nav-links a {
+.nav-links a,
+.nav-links .nav-drop-btn {
   color: var(--slate); font-weight: 600; font-size: .95rem; padding: .5rem .8rem; border-radius: 8px;
 }
-.nav-links a:hover { color: var(--navy); background: var(--sky-soft); text-decoration: none; }
+.nav-links a:hover,
+.nav-links .nav-drop-btn:hover { color: var(--navy); background: var(--sky-soft); text-decoration: none; }
 .nav-links a.active { color: var(--blue); }
 /* Keep CTA button readable: button color rules must beat the .nav-links a defaults above */
 .nav-links a.btn-primary, .nav-links a.btn-primary:hover { color: #fff; background: var(--blue); }
 .nav-links a.btn-primary:hover { background: #1059a1; }
 .nav-links a.btn-outline, .nav-links a.btn-outline:hover { color: var(--blue); background: #fff; }
 .nav-cta { margin-left: 8px; }
+
+/* nav dropdown */
+.nav-drop { position: relative; }
+.nav-drop-btn {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-family: inherit; line-height: inherit; background: none; border: 0; cursor: pointer;
+}
+.nav-drop-btn.active { color: var(--blue); }
+.nav-drop-btn svg { width: 13px; height: 13px; transition: transform .18s ease; }
+.nav-drop.open > .nav-drop-btn svg { transform: rotate(180deg); }
+.nav-menu {
+  display: none; list-style: none; margin: 0; padding: 6px; position: absolute; top: calc(100% + 6px); left: 0;
+  min-width: 215px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius-sm);
+  box-shadow: var(--shadow); z-index: 60;
+}
+.nav-drop.open > .nav-menu { display: block; }
+/* invisible bridge so the pointer can cross the gap without closing the menu */
+.nav-drop::after { content: ""; display: none; position: absolute; left: 0; right: 0; top: 100%; height: 10px; }
+.nav-drop.open::after { display: block; }
+.nav-menu a { display: block; padding: .55rem .7rem; white-space: nowrap; }
+/* No-JS fallback only: main.js adds .js-drops and then owns the open state,
+   so `aria-expanded` always matches what is on screen. */
+@media (min-width: 861px) {
+  .nav-links:not(.js-drops) .nav-drop:hover > .nav-menu,
+  .nav-links:not(.js-drops) .nav-drop:focus-within > .nav-menu { display: block; }
+  .nav-links:not(.js-drops) .nav-drop:hover::after,
+  .nav-links:not(.js-drops) .nav-drop:focus-within::after { display: block; }
+}
 
 .nav-toggle {
   display: none; background: none; border: 0; cursor: pointer; padding: 8px; border-radius: 8px;
@@ -133,6 +163,14 @@ p { margin: 0 0 1rem; }
   .nav-links a { padding: .75rem .6rem; font-size: 1rem; }
   .nav-cta { margin: 6px 0 0; }
   .nav-cta .btn { width: 100%; justify-content: center; }
+  .nav-drop { position: static; }
+  .nav-links .nav-drop-btn { width: 100%; justify-content: space-between; padding: .75rem .6rem; font-size: 1rem; }
+  .nav-menu {
+    position: static; min-width: 0; padding: 0 0 4px 14px; border: 0; box-shadow: none;
+    border-left: 2px solid var(--line); margin-left: .6rem;
+  }
+  .nav-drop::after { content: none; }
+  .nav-menu a { padding: .6rem .6rem; }
 }
 
 /* ---------- Hero ---------- */
@@ -176,6 +214,10 @@ p { margin: 0 0 1rem; }
 .stat .num { font-size: 2rem; font-weight: 800; color: #fff; line-height: 1; }
 .stat .lbl { font-size: .88rem; color: rgba(255,255,255,.78); margin-top: .35rem; }
 @media (max-width: 720px){ .stats { grid-template-columns: repeat(2,1fr); } }
+/* stats on a light section */
+.stats--light .stat { background: var(--card); border-color: var(--line); box-shadow: var(--shadow-sm); backdrop-filter: none; }
+.stats--light .stat .num { color: var(--navy); }
+.stats--light .stat .lbl { color: var(--slate); }
 
 /* ---------- Cards & grids ---------- */
 .grid { display: grid; gap: 22px; }

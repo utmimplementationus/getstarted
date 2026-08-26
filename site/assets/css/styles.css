@@ -393,7 +393,7 @@ p { margin: 0 0 1rem; }
 /* ---------- Footer ---------- */
 .site-footer { background: var(--navy); color: rgba(255,255,255,.75); margin-top: 0; }
 .site-footer .container { padding: 50px 22px 30px; }
-.foot-grid { display:grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 28px; }
+.foot-grid { display:grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 28px; }
 @media (max-width: 820px){ .foot-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 480px){ .foot-grid { grid-template-columns: 1fr; } }
 .site-footer h4 { color:#fff; font-size:.82rem; text-transform:uppercase; letter-spacing:.1em; margin-bottom: .9rem; }

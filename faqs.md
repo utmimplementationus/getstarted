@@ -1,19 +1,19 @@
 ## General FAQs
 
-### What is the US UTM Implementation?
+### What is the Shared Airspace UTM Consortium?
 
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 Shared airspace is the digital coordination of intended UA flight paths with overlapping operators in support of FAA Order 8040.6A and complex operations. This implementation of shared airspace leverages the strategic conflict detection and aggregated conformance monitoring services (collectively identified as strategic coordination) defined in [ASTM F3548-21 Standard Specification for UAS Traffic Management (UTM) UAS Service Supplier (USS) Interoperability](https://www.astm.org/f3548-21.html). These services are expected to be accepted by the FAA per the [Near Term Approvals Process (NTAP)](https://www.faa.gov/uas/advanced_operations/traffic_management), or via other means such as an FAA Letter of Acceptance, and incorporate participation and feedback from the FAA and NASA. Participants include Service Providers and Operators with the need to reduce UA to UA risk and who have signed the agreement available on the Get Started page.
 
-### Why should I join the US UTM Implementation?
+### Why should I join the Shared Airspace UTM Consortium?
 
-The US UTM Implementation was driven by operational demand. As complex drone operations proliferate, UAS operators are solving cooperative airspace needs through data sharing practices and the use of the [ASTM F3548-21 Standard Specification for UAS Traffic Management (UTM) UAS Service Supplier (USS) Interoperability](https://www.astm.org/f3548-21.html).
-UAS Operators and UTM Service Providers who have a need to share airspace with other complex drone operations as required by [FAA Order 8040.6A](https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1042092) can join the US UTM Implementation.
+The Consortium was driven by operational demand. As complex drone operations proliferate, UAS operators are solving cooperative airspace needs through data sharing practices and the use of the [ASTM F3548-21 Standard Specification for UAS Traffic Management (UTM) UAS Service Supplier (USS) Interoperability](https://www.astm.org/f3548-21.html).
+UAS Operators and UTM Service Providers who have a need to share airspace with other complex drone operations as required by [FAA Order 8040.6A](https://www.faa.gov/regulations_policies/orders_notices/index.cfm/go/document.information/documentID/1042092) can join the Consortium.
 
-### Am I ready to join the US UTM Implementation?	
+### Am I ready to join the Shared Airspace UTM Consortium?	
 
-To join the US UTM Implementation, participants must be ready to pass Gate 1 criteria and sign the governance agreement as provided on the Get Started page. See the [onboarding steps](onboarding.md) and the next section of the FAQs for more information.
+To join the Consortium, participants must be ready to pass Gate 1 criteria and sign the governance agreement as provided on the Get Started page. See the [onboarding steps](onboarding.md) and the next section of the FAQs for more information.
 
 ### What is covered in the governance agreement?	
 
@@ -37,7 +37,7 @@ If you have already passed Gate 1, please upload your single-operator test repor
 
 ### I'm interested in providing other services besides strategic coordination. Can I still join the US UTM implemenation?	
 
-At this time, the US UTM Implementation is focused on standing up core strategic coordination services to manage UA-UA collision risk. As the technical roadmap matures, other interoperable service options may also be managed through the US UTM Implementation committees. If you offer SDSP capabilities, you may pursue partnerships directly with operators or other service providers (subject to applicable regulatory approval), but you do not need to formally join the US UTM Implementation.
+At this time, the Consortium is focused on standing up core strategic coordination services to manage UA-UA collision risk. As the technical roadmap matures, other interoperable service options may also be managed through the Consortium committees. If you offer SDSP capabilities, you may pursue partnerships directly with operators or other service providers (subject to applicable regulatory approval), but you do not need to formally join the Consortium.
 
 ### I'd like to join the committee meetings and/or read the minutes of past committee meetings. How can I get access?	
 
@@ -47,9 +47,9 @@ The Operations Committee and Technical Committee meetings, along with their minu
 
 Operators, service providers and other stakeholders are expected to cover their own costs of participation. 
 
-### Are there any fees for joining the UTM Implementation cohort?	
+### Are there any fees for joining the Consortium?	
 
-No, joining the US UTM Implementation is free of charge. However, according to the data sharing and governance agreement, members must cover all of their expenses.
+No, joining the Consortium is free of charge. However, according to the data sharing and governance agreement, members must cover all of their expenses.
 
 ## Onboarding FAQs
 

@@ -1,10 +1,10 @@
-# US Shared Airspace UTM Implementation — Public Site (Prototype)
+# Shared Airspace UTM Consortium — Public Site
 
-A friendlier, visitor-oriented front door to the US Shared Airspace UTM Implementation. It translates
+A friendlier, visitor-oriented front door to the Shared Airspace UTM Consortium. It translates
 the technical governance repository (agreements, SDDs, traceability matrices, policies)
 into a clear, approachable experience for newcomers.
 
-> **Status:** Prototype for review. Content is summarized from the repository's
+> **Source of truth:** Content is summarized from the repository's
 > `README.md`, `onboarding.md`, `faqs.md`, `dss-pooling.md`, `NRID_onboarding.md`, and
 > `docs/prioritization-policy-04082026.md`. Official/authoritative text remains in those
 > source documents, which this site links to.
@@ -14,7 +14,7 @@ into a clear, approachable experience for newcomers.
 | Page | Purpose |
 |------|---------|
 | `index.html` | Landing — what shared airspace is, guiding principles, key stats, where to go next |
-| `about.html` | The cohort — origin story, members, governance committees, open-source approach |
+| `about.html` | The consortium — origin story, members, governance committees, open-source approach |
 | `onboarding.html` | The journey — sign the agreement + the three gates, as a visual step-by-step timeline |
 | `policies.html` | Plain-language summaries of the Prioritization and DSS Pooling policies |
 | `faqs.html` | Searchable, filterable FAQ accordion |
@@ -35,7 +35,7 @@ see the workflow configuration in [`.github/workflows/deploy-pages.yml`](../.git
   control the palette).
 - Interactions (mobile nav, scroll reveal, FAQ search) live in `assets/js/main.js`.
 - The header and footer are duplicated inline in each page, update all pages together,
-  or introduce a templating/include step if this graduates beyond a prototype.
+  or introduce a templating/include step if the site grows.
 
 ## Keeping document versions in sync (README-driven)
 
@@ -61,6 +61,5 @@ element keeps the hardcoded fallback value baked into the HTML, so the page alwa
 correctly — just possibly one version behind.
 
 > Note: the branch the sync reads from is the `BRANCH` constant at the top of
-> `versions.js`. It is currently set to `public_page_improvements` for pre-merge testing;
-> **set it back to `main` before production.** New versions appear on the live site within
-> the raw CDN's ~5-minute cache after the README change lands on that branch.
+> `versions.js`, set to `main`. New versions appear on the live site within the raw
+> CDN's ~5-minute cache after the README change lands on `main`.

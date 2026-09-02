@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main                       # production deploys
-      - public_page_improvements   # pre-merge preview (remove once merged to main)
     paths:
       - "site/**"                  # only redeploy when the site changes
       - ".github/workflows/deploy-pages.yml"

@@ -1,4 +1,4 @@
-## US UTM Implementation \- Prioritization Implementation
+## Shared Airspace UTM Consortium \- Prioritization Implementation
 
 ## **Operations Committee Policy for Prioritization of UAS operations with UAS Traffic management (UTM)**
 Revised April 8, 2024

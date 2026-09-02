@@ -1,4 +1,4 @@
-# US Shared Airspace
+# Shared Airspace UTM Consortium
 
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
@@ -38,9 +38,9 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 
 <i>Note: Some links may only be accessible to participants and observers.</i>
 
-## About the US UTM Implementation
+## About the Shared Airspace UTM Consortium
 
-As of January 2026, the cohort includes 17 service providers and operators using the USS Network to support UAS operations in several parts of the United States. In October 2025, [many members submitted joint comments](https://www.regulations.gov/comment/FAA-2025-1908-2544) in support of the cohort's activities in response to the Federal Aviation Administration's Notice of Proposed Rulemaking (NPRM) for Normalizing UAS Beyond Visual Line of Sight (BVLOS) Operations. In June 2025, Unmanned Airspace [covered the cohort's progress to date](https://www.unmannedairspace.info/uncategorized/one-year-on-assessing-challenges-and-achievements-of-the-us-utm-implementation-programme/). In March 2025, the Mid-Atlantic Aviation Partnership (MAAP) at Virginia Tech completed their [Initial Operationalization Report](./docs/Shared_Airspace_Report_v1_FINAL.pdf), which the Operations Committee approved and makes publicly available.
+As of January 2026, the consortium includes 17 service providers and operators using the USS Network to support UAS operations in several parts of the United States. In October 2025, [many members submitted joint comments](https://www.regulations.gov/comment/FAA-2025-1908-2544) in support of the consortium's activities in response to the Federal Aviation Administration's Notice of Proposed Rulemaking (NPRM) for Normalizing UAS Beyond Visual Line of Sight (BVLOS) Operations. In June 2025, Unmanned Airspace [covered the consortium's progress to date](https://www.unmannedairspace.info/uncategorized/one-year-on-assessing-challenges-and-achievements-of-the-us-utm-implementation-programme/). In March 2025, the Mid-Atlantic Aviation Partnership (MAAP) at Virginia Tech completed their [Initial Operationalization Report](./docs/Shared_Airspace_Report_v1_FINAL.pdf), which the Operations Committee approved and makes publicly available.
 
 Shared airspace is the digital coordination of intended UA flight paths with overlapping operators in support of FAA Order 8040.6A and complex operations. This implementation of shared airspace leverages the strategic conflict detection and aggregated conformance monitoring services (collectively identified as strategic coordination) defined in [ASTM F3548-21 Standard Specification for UAS Traffic Management (UTM) UAS Service Supplier (USS) Interoperability](https://www.astm.org/f3548-21.html). These services are expected to be accepted by the FAA per the [Near Term Approvals Process (NTAP)](https://www.faa.gov/uas/advanced_operations/traffic_management) and incorporate participation and feedback from the FAA and NASA. Participants include Service Providers and Operators with the need to reduce UA to UA risk and who have signed the agreement available on this page.
 
@@ -64,15 +64,30 @@ With performance-based criteria, UTM service providers and their operators can p
 * (NRID SDD) [Service Description Document for Network Remote Identification, v1.0](./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf)
 * (NRID RTM) [Requirements Traceability Matrix for Network Remote Identification, v1.0](./docs/Network_Remote_Identification_Compliance_Matrix_V1.0.xlsx)
 
+## Participating Service Providers and Part 135 Operators contact information
+### Service Providers
+- Airspace Link contact: info@airspacelink.com
+- ANRA contact: airspace-integration@flyanra.com
+- Avision contact: info@avision.io
+- Cal Analytics: info@calanalytics.com
+- OneSky contact: support@oneskysystems.com
+- UTMverse contact: info@utmverse.com
+
+### Part 135 Operators
+- Amazon contact: regulatory-affairs-us@amazon.com
+- Flytrex contact: airspace@flytrex.com
+- Wing contact: airspaceoutreach@wing.com
+- Zipline contact: USFlightOps@flyzipline.com
+
 ## Frequently Asked Questions and Additional Resources
 
-+ [Click here](faqs.md) for answers to frequently asked questions about the US UTM Implementation.
++ [Click here](faqs.md) for answers to frequently asked questions about the Consortium.
 + [Consult this page for the specific onboarding steps that are required](onboarding.md), including how to sign the governance agreement, and required timelines for completing the steps.
 + [Click here for more information on DSS Pooling](dss-pooling.md), which is applicable to service providers who are seeking to include their own DSS instance (or a subcontracted instance) in the Shared Airspace DSS Pool.
 
 ## How to Get Started
 
-Participation in the shared airspace ecosystem enables collaboration, communication, and governance of shared airspace, aiming to integrate strategic coordination services to enable dense, overlapping BVLOS operations. This section provides an overview of the steps to join the US UTM Implementation.
+Participation in the shared airspace ecosystem enables collaboration, communication, and governance of shared airspace, aiming to integrate strategic coordination services to enable dense, overlapping BVLOS operations. This section provides an overview of the steps to join the Consortium.
 
 As a participant, you will be able to leverage shared operational and governance resources to develop, verify, and advance your approach to sharing the airspace. This is an opportunity to learn from collaborative efforts and participate in democratized foundations of a shared airspace.
 
@@ -137,7 +152,7 @@ _Source: Annex B - Onboarding Gates, UTM Service Provider Data Sharing and Gover
 
 ## Current Activities
 
-Participants in the current collaboration stemming from the active drone delivery market in North Texas are onboarding to or actively participating in simulations representing true, day-in-the-life operations. These simulations have progressed to live flights over the course of 2024. Companies have reached consensus on governance and data sharing, and have signed and implemented agreements that are publicly available on this page. This is known as the US UTM Shared Airspace Implementation.
+Participants in the current collaboration stemming from the active drone delivery market in North Texas are onboarding to or actively participating in simulations representing true, day-in-the-life operations. These simulations have progressed to live flights over the course of 2024. Companies have reached consensus on governance and data sharing, and have signed and implemented agreements that are publicly available on this page. This is known as the Shared Airspace UTM Consortium.
 
 ![initial asset](assets/SimulationExample.png)
 

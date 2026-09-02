@@ -1,5 +1,5 @@
 /* =====================================================================
-   US UTM Implementation — Public Site Prototype
+   Shared Airspace UTM Consortium — Public Site
    Design system: aviation-inspired, calm, trustworthy, accessible.
    Pure CSS, no build step.
    ===================================================================== */
@@ -97,7 +97,7 @@ p { margin: 0 0 1rem; }
 }
 .brand .mark svg { width: 20px; height: 20px; }
 .brand-text small { display: block; font-size: .68rem; font-weight: 600; color: var(--mist); letter-spacing: .04em; line-height: 1; }
-.brand-text strong { font-size: 1rem; line-height: 1.1; }
+.brand-text strong { display: block; font-size: 1rem; line-height: 1.15; }
 
 .nav-links { display: flex; align-items: center; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .nav-links a,
@@ -226,6 +226,14 @@ p { margin: 0 0 1rem; }
 .grid-4 { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 920px){ .grid-3, .grid-4 { grid-template-columns: repeat(2,1fr); } }
 @media (max-width: 640px){ .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; } }
+
+/* Centres a trailing partial row (e.g. a 3-up layout holding 5 cards).
+   Uses flex instead of grid so the last row centres rather than leaving an empty cell.
+   Column widths match .grid-3 at every breakpoint. Pair with .grid for the gap. */
+.grid-center { display: flex; flex-wrap: wrap; justify-content: center; }
+.grid-center > * { flex: 0 1 calc((100% - 44px) / 3); }
+@media (max-width: 920px){ .grid-center > * { flex: 0 1 calc((100% - 22px) / 2); } }
+@media (max-width: 640px){ .grid-center > * { flex: 0 1 100%; } }
 
 .card {
   background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
@@ -405,13 +413,6 @@ p { margin: 0 0 1rem; }
   border-top: 1px solid rgba(255,255,255,.12); margin-top: 32px; padding-top: 20px;
   display:flex; justify-content:space-between; gap: 12px; flex-wrap: wrap; font-size:.82rem; color: rgba(255,255,255,.55);
 }
-
-/* prototype ribbon */
-.proto-ribbon {
-  background: var(--amber); color: #2a1c00; text-align:center; font-size:.8rem; font-weight:700;
-  padding: 6px 12px; letter-spacing:.02em;
-}
-.proto-ribbon a { color: #2a1c00; text-decoration: underline; }
 
 /* utility */
 .mt-0 { margin-top: 0; } .mb-0 { margin-bottom: 0 !important; }

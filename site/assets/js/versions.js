@@ -1,4 +1,4 @@
-/* versions.js — keep document versions/links in sync with the cohort README.
+/* versions.js — keep document versions/links in sync with the consortium README.
  *
  * Source of truth: the Markdown tables in README.md on `main`, between the
  * <!-- site-data:services --> and <!-- site-data:governance --> markers.
@@ -17,8 +17,7 @@
   "use strict";
 
   // Branch the site reads document data + links from.
-  // Set to "main" for production; currently the working branch for pre-merge testing.
-  var BRANCH = "public_page_improvements";
+  var BRANCH = "main";
   var RAW  = "https://raw.githubusercontent.com/utmimplementationus/getstarted/" + BRANCH + "/README.md";
   var BLOB = "https://github.com/utmimplementationus/getstarted/blob/" + BRANCH + "/";
 

@@ -1,4 +1,4 @@
-/* US UTM Implementation — prototype site interactions */
+/* Shared Airspace UTM Consortium — public site interactions */
 (function () {
   "use strict";
 

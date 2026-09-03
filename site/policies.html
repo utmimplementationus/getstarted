@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Policies | Shared Airspace UTM Consortium</title>
+<meta name="description" content="Plain-language summaries of the consortium's key policies: operational prioritization for life-safety missions, and DSS pooling for network robustness." />
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Shared Airspace UTM Consortium home">
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 16v6M2 12h6M16 12h6"/><circle cx="12" cy="12" r="3"/><path d="M4.5 4.5l3 3M19.5 4.5l-3 3M4.5 19.5l3-3M19.5 19.5l-3-3"/></svg></span>
+      <span class="brand-text"><strong>Shared Airspace</strong><small>UTM Consortium</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links"><span></span></button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="onboarding.html">How to Join</a></li>
+      <li><a href="policies.html">Policies</a></li>
+      <li><a href="faqs.html">FAQs</a></li>
+      <li class="nav-drop">
+        <button class="nav-drop-btn" aria-expanded="false" aria-controls="nav-resources">Resources <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+        <ul class="nav-menu" id="nav-resources">
+          <li><a href="resources.html">Document Library</a></li>
+          <li><a href="dfr-public-safety.html">DFR &amp; Public Safety</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Policies</div>
+    <h1>Policies, in plain language</h1>
+    <p>The consortium governs itself through agreed policies. Here are the two most important ones for newcomers, summarized, with links to the official text.</p>
+  </div>
+</section>
+
+<!-- POLICY NAV -->
+<section class="section--tight" style="padding-top:36px">
+  <div class="container">
+    <div class="grid grid-2">
+      <a href="#prioritization" class="card hover reveal" style="color:inherit">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+        <h3>Operational Prioritization</h3>
+        <p>How life-safety missions get priority over routine flights when paths conflict.</p>
+        <span class="card-link">Jump to section</span>
+      </a>
+      <a href="#dss" class="card hover reveal" style="color:inherit">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div>
+        <h3>DSS Pooling &amp; Governance</h3>
+        <p>How the shared discovery service stays robust, and who's responsible for it.</p>
+        <span class="card-link">Jump to section</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PRIORITIZATION -->
+<section class="section" id="prioritization">
+  <div class="container" style="max-width:880px">
+    <span class="eyebrow">Policy · Effective <span data-vtext="prioritization.effective">April 8, 2026</span></span>
+    <h2>Operational Prioritization</h2>
+    <p class="lead">When two flights would conflict, which one yields? The consortium adopted <strong>two priority levels</strong> so that time-critical, life-safety missions aren't blocked by routine commercial flights.</p>
+    <p>This came out of a task force with the FAA, NASA, and industry. They recommended starting simple (two levels) and collecting data to validate how prioritization affects the airspace before adding complexity.</p>
+
+    <div class="grid grid-2" style="margin:28px 0">
+      <div class="card reveal" style="border-top:5px solid var(--cyan)">
+        <span class="role-tag" style="background:#e3f7f4;color:#067a6f">High Priority</span>
+        <h3>Life-safety, time-critical</h3>
+        <p>Reserved for missions where immediate response is essential for human safety:</p>
+        <ul class="checklist">
+          <li>Responding to a 911 call where safety of life is at stake</li>
+          <li>Active search-and-rescue</li>
+          <li>Delivering blood, plasma, AEDs, or Narcan when life is at stake</li>
+          <li>Disaster response where safety of life is at stake</li>
+          <li>Drone-as-first-responder (DFR) missions</li>
+        </ul>
+      </div>
+      <div class="card reveal" style="border-top:5px solid var(--mist)">
+        <span class="role-tag" style="background:#eef2f6;color:var(--slate)">Standard Priority</span>
+        <h3>Everything else</h3>
+        <p>All routine operations that don't meet the life-dependent bar:</p>
+        <ul class="checklist">
+          <li>Standard package delivery</li>
+          <li>Infrastructure inspection</li>
+          <li>Photography and data collection</li>
+          <li>Training missions (even for public-safety operators)</li>
+          <li>Routine delivery of basic medical supplies</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="note reveal"><strong>How it behaves in the air.</strong> When a high-priority operation overlaps another, providers notify the affected operator per the ASTM standard, and accepted, standard priority flights must re-plan. Currently, no one is required to re-plan if in-flight. And at every level, two equal-priority flights are never allowed to conflict.</div>
+
+    <h3 style="margin-top:28px">Qualifying to fly high priority</h3>
+    <p>An operator can't just self-declare. To use high priority, you:</p>
+    <ul class="checklist">
+      <li>Run operational practicality simulations that realistically represent your mix of high- and standard-priority missions</li>
+      <li>Submit an issue ticket to the Operations Committee with evidence, such as an SGI waiver, a Certificate of Waiver or Authorization (COA), or a DFR Certificate of Waiver</li>
+      <li>For medical transport: a signed letter from a public/health entity engaging you, plus your attestation that you hold the required authorizations</li>
+    </ul>
+    <p class="muted">No standard document fits? You can propose an alternative artifact with a rationale for the Operations Committee to review. Once your ticket is accepted, you may use high priority for all applicable missions.</p>
+    <a class="btn btn-outline" data-vhref="prioritization.href" href="https://github.com/utmimplementationus/getstarted/blob/main/docs/prioritization-policy-04082026.md" style="margin-top:8px">Read the full prioritization policy →</a>
+  </div>
+</section>
+
+<!-- DSS -->
+<section class="section section--alt" id="dss">
+  <div class="container" style="max-width:880px">
+    <span class="eyebrow">Policy · Effective <span data-vtext="dss.effective">August 27, 2024</span></span>
+    <h2>DSS Pooling &amp; Governance</h2>
+    <p class="lead">The Discovery &amp; Synchronization Service (DSS) is the shared backbone that lets providers find and sync with each other's operations. This policy keeps it robust and makes clear who owns what.</p>
+
+    <div class="grid grid-3" style="margin:24px 0">
+      <div class="card reveal"><h3 style="font-size:1.05rem">Predictable, yet flexible</h3><p class="mb-0 muted">Give providers and regulators predictability around the DSS pool, while allowing the flexibility to use other instances to keep the network robust.</p></div>
+      <div class="card reveal"><h3 style="font-size:1.05rem">Clear ownership</h3><p class="mb-0 muted">Every DSS instance is tied to a provider who keeps technical and governance responsibility for its performance.</p></div>
+      <div class="card reveal"><h3 style="font-size:1.05rem">Monitored over time</h3><p class="mb-0 muted">Pool performance is watched continuously, with governance and technical requirements adjusted to address safety or performance issues.</p></div>
+    </div>
+
+    <h3>The essentials</h3>
+    <ul class="checklist">
+      <li>There's <strong>one DSS pool</strong> for the US, matching the national boundaries.</li>
+      <li>Every instance in the pool must pass automated testing, proving it interoperates with all other instances and providers.</li>
+      <li>An instance must be provided by a signatory provider, or a subcontractor to one. If you subcontract, you're responsible for that instance meeting privacy and security requirements.</li>
+      <li>Each provider is expected to use its own DSS instance as much as practicable, and may use another pool instance only while its own is down.</li>
+      <li>Providers must be able to detect an outage, switch to another instance, detect recovery, and switch back.</li>
+      <li>Monthly performance reports are required, using the approved template.</li>
+    </ul>
+    <div class="note reveal" style="margin-top:18px"><strong>Severity.</strong> A failure of a whole DSS instance is treated as a Severity&nbsp;2 event. A single node failing within an instance does not, by itself, trigger SLA resolution.</div>
+    <p style="margin-top:18px"><a class="btn btn-outline" data-vhref="dss.href" href="https://github.com/utmimplementationus/getstarted/blob/main/dss-pooling.md">Read the full DSS governance policy →</a></p>
+  </div>
+</section>
+
+<!-- CHANGING POLICY -->
+<section class="section">
+  <div class="container" style="max-width:880px">
+    <div class="card reveal" style="background:linear-gradient(135deg,var(--sky-soft),#fff)">
+      <h3>Policies can change, by consensus</h3>
+      <p class="mb-0">Any affected stakeholder can propose a change through the Issue Resolution process in the governance agreement (Annex&nbsp;C, Section&nbsp;7(h)), including new priority levels or changes to who qualifies. That's the consortium's commitment to evolving with real operational learnings.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html" style="color:#fff; margin-bottom:12px"><span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6M12 16v6M2 12h6M16 12h6"/><circle cx="12" cy="12" r="3"/><path d="M4.5 4.5l3 3M19.5 4.5l-3 3M4.5 19.5l3-3M19.5 19.5l-3-3"/></svg></span><span class="brand-text"><strong style="color:#fff">Shared Airspace</strong><small style="color:rgba(255,255,255,.6)">UTM Consortium</small></span></a>
+        <p>Operationalizing UAS Traffic Management to enable safe, dense, overlapping drone operations across the United States.</p>
+      </div>
+      <div><h4>Explore</h4><a href="about.html">About Us</a><a href="onboarding.html">How to Join</a><a href="policies.html">Policies</a><a href="faqs.html">FAQs</a><a href="resources.html">Document Library</a><a href="dfr-public-safety.html">DFR &amp; Public Safety</a></div>
+      <div><h4>Standards &amp; partners</h4><a href="https://www.astm.org/f3548-21.html">ASTM F3548-21</a><a href="https://gutma.org/">GUTMA</a><a href="https://interussplatform.org/">InterUSS Platform</a><a href="https://github.com/utmimplementationus/getstarted">GitHub repository</a></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Shared Airspace UTM Consortium.</span><span>Some links require participant or observer access.</span></div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/versions.js"></script>
+</body>
+</html>

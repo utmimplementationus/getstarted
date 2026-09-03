@@ -1,6 +1,6 @@
-# Onboarding Process for the US UTM Implementation
+# Onboarding Process for the Shared Airspace UTM Consortium
 
-Welcome to the US UTM Implementation! This page provides an overview of the onboarding process for service providers and operators (including vertically integrated service providers). The text sections are a summary of the high level onboarding steps, [while the table below provides detailed artifacts and requirements](#onboarding-table) that must be completed at each onboarding step. Note that some links in the table will not work until a prospective service provider has received access to the other Github repositories from one of the co-chairs. Please carefully review the guide and associated timelines to determine your readiness to start the process. Additional information is available in the [onboarding section of the FAQs](faqs.md#onboarding-faqs).
+Welcome to the Shared Airspace UTM Consortium! This page provides an overview of the onboarding process for service providers and operators (including vertically integrated service providers). The text sections are a summary of the high level onboarding steps, [while the table below provides detailed artifacts and requirements](#onboarding-table) that must be completed at each onboarding step. Note that some links in the table will not work until a prospective service provider has received access to the other Github repositories from one of the co-chairs. Please carefully review the guide and associated timelines to determine your readiness to start the process. Additional information is available in the [onboarding section of the FAQs](faqs.md#onboarding-faqs).
 
 Note, the following guidance applies to new service providers onboarding SCD capabilities. Existing service providers adding NRID should follow the separate [NRID onboarding guidance steps](https://github.com/utmimplementationus/getstarted/blob/main/NRID_onboarding.md)
 
@@ -27,11 +27,11 @@ Upon signing the governance agreement, applicants will have a 120-calendar-day p
 
 ## 3. Completion and Compliance
 
-Prospective service providers must complete all automated testing (Gates 1 through 3) and submit other required artifacts within the 120-calendar-day onboarding period. Failure to meet these requirements will result in the applicant being removed from the US UTM Implementation and the loss of observer access to the committees. Prior to the end of the 120-day period, applicants may request a one-time extension of up to 30 additional days from the Operations Committee.
+Prospective service providers must complete all automated testing (Gates 1 through 3) and submit other required artifacts within the 120-calendar-day onboarding period. Failure to meet these requirements will result in the applicant being removed from the Consortium and the loss of observer access to the committees. Prior to the end of the 120-day period, applicants may request a one-time extension of up to 30 additional days from the Operations Committee.
 
 Upon completion of all gates, the service provider will receive a certificate from the Co-Chairs, which will enable the service provider to request access to the production environment. The service provider must continue to meet ongoing requirements identified in the governance agreement to remain active in the governance committees. If removed from the project, applicants may reapply after a waiting period of 90 calendar days from the date of removal.
 
-We are excited to have you join us in advancing the US UTM Implementation. Please follow these guidelines to ensure a successful onboarding experience.
+We are excited to have you join us in advancing the Consortium. Please follow these guidelines to ensure a successful onboarding experience.
 
 ## 4. Table of Onboarding Requirements by Gate
 

@@ -11,7 +11,7 @@ Adopted August 27, 2024
    a. Each DSS instance comprises a number of nodes specified by the Technical Committee
 2. The DSS Pool comprises all DSS instances that meet the governance provisions, including test and performance requirements defined by the Technical Committee.
    b. DSS Pools may exist in discrete multiple environments, e.g. qual-partners and production.
-3. There is exactly one DSS Pool for a given DSS region. Within the US UTM Implementation, there is one DSS region which matches the national boundaries of the United States.
+3. There is exactly one DSS Pool for a given DSS region. Within the Shared Airspace UTM Consortium, there is one DSS region which matches the national boundaries of the United States.
 4. Each DSS instance in the DSS Pool publishes at least one API endpoint in Github for use by any USP in accordance with Technical Committee requirements.
 5. Each USP has a means to detect an outage of their DSS instance(s), and has a means to switch to another DSS instance.
 6. Each USP has a means to detect the recovery of their DSS instance, and to switch back to it.

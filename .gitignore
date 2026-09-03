@@ -1,0 +1,5 @@
+# macOS Finder metadata
+.DS_Store
+
+# Claude Code local files (preview servers, launch config, local settings)
+.claude/

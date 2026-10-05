@@ -3,9 +3,11 @@
 UAS Traffic Management (UTM) implementation in the US is the operationalization of UTM services to support complex UAS operations, with an initial focus on furthering shared airspace.
 
 [Public Webpage](https://utmimplementationus.github.io/getstarted/index.html)
+
 **Onboarding guidance:** New service providers onboarding SCD capabilities should follow the [SCD onboarding steps](./onboarding.md). Existing service providers adding Network Remote ID should follow the separate [NRID onboarding guidance steps](./NRID_onboarding.md).
 
 ## Recent Updates
++ September 24, 2026: Updated [SCD SDD 2.1.0](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.1.pdf) and [NRID SDD1.1.0](./docs/Network_Remote_Identification_Service_Description_Document_V1.1.pdf) published.
 + June 8, 2026: [Network Remote ID onboarding guidance](./NRID_onboarding.md) introduced.
 + May 21, 2026: [UTM Service Provider Data Sharing and Governance Agreement](./docs/USP_Agreement_05212026.pdf) Updated
 + May 19, 2026: [Network Remote ID SDD](./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf) v1.0 introduced.
@@ -21,8 +23,8 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 
 | Service | SDD | RTM | Monthly Reporting | Test Baseline | Effective | Status |
 |---------|-----|-----|-------------------|---------------|-----------|--------|
-| SCD  | [v2.0.3](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.0.3.pdf) | [v2.0](./docs/SCD-RTM-V2.0.xlsx) | [v2.0](./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx) | TB-722d968 | April 2026 | Active |
-| NRID | [v1.0](./docs/Network_Remote_Identification_Service_Description_Document_V1.0.pdf) | [v1.0](./docs/Network_Remote_Identification_Compliance_Matrix_V1.0.xlsx) | [v1.0](./docs/Network_Remote_Identification_Service_Provider_Monthly_Reporting_Template_V1.0.xlsx) | TB-3765023 | May 2026 | Active |
+| SCD  | [v2.1.0](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.1.pdf) | [v2.0](./docs/SCD-RTM-V2.0.xlsx) | [v2.0](./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx) | TB-8fd8148 | September 2026 | Active |
+| NRID | [v1.1.0](./docs/Network_Remote_Identification_Service_Description_Document_V1.1.pdf) | [v1.0](./docs/Network_Remote_Identification_Compliance_Matrix_V1.0.xlsx) | [v1.0](./docs/Network_Remote_Identification_Service_Provider_Monthly_Reporting_Template_V1.0.xlsx) | TB-ca5d88e | September 2026 | Active |
 <!-- site-data:services END -->
 
 <!-- site-data:governance START -->
@@ -147,8 +149,6 @@ The ecosystem is open to service providers and their operators. Providers of UTM
 </table>
 
 _Source: Annex B - Onboarding Gates, UTM Service Provider Data Sharing and Governance Agreeement_
-
-[BECOME A PARTICIPANT](https://forms.gle/3SgLJ6jnj9PVeDSF6)
 
 ## Current Activities
 

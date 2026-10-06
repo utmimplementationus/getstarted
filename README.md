@@ -23,7 +23,7 @@ UAS Traffic Management (UTM) implementation in the US is the operationalization 
 
 | Service | SDD | RTM | Monthly Reporting | Test Baseline | Effective | Status |
 |---------|-----|-----|-------------------|---------------|-----------|--------|
-| SCD  | [v2.1.0](./docs/UA-UA_Strategic_Coordination_SDD_V2.0.1.pdf) | [v2.0](./docs/SCD-RTM-V2.0.xlsx) | [v2.0](./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx) | TB-8fd8148 | September 2026 | Active |
+| SCD  | [v2.1.0](./docs/UA-UA_Strategic_Coordination_Service_Description_Document_V2.1.pdf) | [v2.0](./docs/SCD-RTM-V2.0.xlsx) | [v2.0](./docs/Service_Provider_and_Operator_Monthly_Reporting_Templates_V2.0.xlsx) | TB-8fd8148 | September 2026 | Active |
 | NRID | [v1.1.0](./docs/Network_Remote_Identification_Service_Description_Document_V1.1.pdf) | [v1.0](./docs/Network_Remote_Identification_Compliance_Matrix_V1.0.xlsx) | [v1.0](./docs/Network_Remote_Identification_Service_Provider_Monthly_Reporting_Template_V1.0.xlsx) | TB-ca5d88e | September 2026 | Active |
 <!-- site-data:services END -->
 

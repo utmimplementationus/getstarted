@@ -381,6 +381,14 @@ p { margin: 0 0 1rem; }
 .cta-band h2 { color:#fff; margin:0 0 .3rem; }
 .cta-band p { color: rgba(255,255,255,.9); margin:0; max-width: 52ch; }
 
+/* ---------- Quote band ---------- */
+.quote-band { background: var(--navy); color:#fff; }
+.quote { max-width: 860px; margin: 0 auto; text-align: center; }
+.quote blockquote { margin: 0; }
+.quote blockquote p { color:#fff; font-size: clamp(1.05rem, 1.6vw, 1.3rem); line-height: 1.6; font-weight: 600; margin: 0; }
+.quote figcaption { margin-top: 1.4rem; color: var(--sky); font-size: .85rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.quote figcaption::before { content: "— "; }
+
 .note {
   border-left: 4px solid var(--sky); background: var(--sky-soft); padding: 16px 18px;
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0; color: var(--navy-2); font-size:.95rem;

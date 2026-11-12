@@ -1,5 +1,6 @@
 ## Operations Committee Policy for DSS Governance
 Adopted August 27, 2024
+Updated November 12, 2026
 
 ### Desired Outcomes:
 1. Provide predictability around DSS Pooling for USPs and the regulator, while enabling flexibility for use of other DSS instances in order to maintain USP Network robustness.
@@ -10,11 +11,13 @@ Adopted August 27, 2024
 1. The Discovery and Synchronization Service (DSS) comprises one or more DSS instances, which may be hosted by different entities (see ASTM F3548-21, Sec. A2.2.6).
    a. Each DSS instance comprises a number of nodes specified by the Technical Committee
 2. The DSS Pool comprises all DSS instances that meet the governance provisions, including test and performance requirements defined by the Technical Committee.
-   b. DSS Pools may exist in discrete multiple environments, e.g. qual-partners and production.
-3. There is exactly one DSS Pool for a given DSS region. Within the Shared Airspace UTM Consortium, there is one DSS region which matches the national boundaries of the United States.
-4. Each DSS instance in the DSS Pool publishes at least one API endpoint in Github for use by any USP in accordance with Technical Committee requirements.
-5. Each USP has a means to detect an outage of their DSS instance(s), and has a means to switch to another DSS instance.
-6. Each USP has a means to detect the recovery of their DSS instance, and to switch back to it.
+   a. DSS Pools may exist in discrete multiple environments, e.g. qual-partners and production.
+3. Separate DSS Pools may be deployed for specific interoperable services provisioned by the Shared Airspace UTM Consortium.
+   a. Strategic Conflict Detection (SCD) and Network Remote ID (NetRID) must have separate DSS pools.
+4. Each DSS region has exactly one DSS Pool for each interoperable service that uses a dedicated pool. The Shared Airspace UTM Consortium operates a single DSS region whose boundaries match those of the United States.
+5. Each DSS instance in the DSS Pool publishes at least one API endpoint in Github for use by any USP in accordance with Technical Committee requirements.
+6. Each USP has a means to detect an outage of their DSS instance(s), and has a means to switch to another DSS instance.
+7. Each USP has a means to detect the recovery of their DSS instance, and to switch back to it.
 
 ### Governance Provisions applicable to USPs:
 1. If a USP contracts with a DSS provider that is not also a USP that is a signatory to the governance agreement, then—
